@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Upload de Arquivo de Dados</h2>
+<p>Para começar a análise, faça o upload do arquivo CSV dos dados das bananas.</p>
+
+<form action="/analysis" method="post" enctype="multipart/form-data">
+    <label for="file">Selecione um arquivo CSV:</label>
+    <input type="file" id="file" name="file" accept=".csv">
+    <button type="submit">Upload</button>
+</form>
+
+{% if message %}
+    <p class="error-message">{{ message }}</p>
+{% endif %}
+{% endblock %}

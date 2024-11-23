@@ -1,0 +1,147 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Análise e Predições dos Dados de Bananas</h2>
+
+<h3>Resumo dos Dados</h3>
+{% for table in tables %}
+    <div>{{ table|safe }}</div>
+{% endfor %}
+
+<h3>Gráficos de Análise</h3>
+<div class="charts">
+    <h4>Gráfico de Barras - Distribuição por Variedade</h4>
+    <img id="barChart" src="{{ url_for('static', filename='images/' + charts.bar_chart) }}?{{ random_number }}" alt="Distribuição por Variedade">
+
+    <h4>Gráfico de Pizza - Proporção de Categorias de Maturação</h4>
+    <img id="pieChart" src="{{ url_for('static', filename='images/' + charts.pie_chart) }}?{{ random_number }}" alt="Proporção de Categorias de Maturação">
+
+    <h4>Gráfico de Dispersão - Pontuação de Qualidade vs. Teor de Açúcar</h4>
+    <img id="scatterPlot" src="{{ url_for('static', filename='images/' + charts.scatter_plot) }}?{{ random_number }}" alt="Pontuação de Qualidade vs. Teor de Açúcar">
+
+    <h4>Boxplot - Distribuição da Firmeza por Categoria de Qualidade</h4>
+    <img id="boxplot" src="{{ url_for('static', filename='images/' + charts.boxplot) }}?{{ random_number }}" alt="Distribuição da Firmeza por Categoria de Qualidade">
+
+    <h4>Heatmap - Média do Índice de Maturação por Categoria de Qualidade</h4>
+    <img id="heatmap" src="{{ url_for('static', filename='images/' + charts.heatmap) }}?{{ random_number }}" alt="Média do Índice de Maturação por Categoria de Qualidade">
+</div>
+
+<h3>Realizar Predições</h3>
+
+<h4>Predições para Pontuação de Qualidade</h4>
+<div id="prediction-form-container" data-features="{{ features | join(',') }}">
+    <form id="prediction-form">
+        {% for feature in features %}
+            <label for="{{ feature }}">{{ feature.replace('_', ' ').capitalize() }}</label>
+            <input type="number" step="any" id="{{ feature }}" name="{{ feature }}">
+        {% endfor %}
+        <button type="button" onclick="makePrediction()">Predict</button>
+    </form>
+</div>
+<div id="prediction-result"></div>
+
+<h4>Predições para Categoria de Qualidade</h4>
+<div id="category-prediction-form-container" data-category-features="{{ category_features | join(',') }}">
+    <form id="category-prediction-form">
+        {% for feature in category_features %}
+            <label for="{{ feature }}">{{ feature.replace('_', ' ').capitalize() }}</label>
+            <input type="number" step="any" id="{{ feature }}" name="{{ feature }}">
+        {% endfor %}
+        <button type="button" onclick="makeCategoryPrediction()">Predict</button>
+    </form>
+</div>
+<div id="category-prediction-result"></div>
+
+<h3>Reupload de Arquivo e Re-treinamento dos Modelos</h3>
+<form id="retrain-form" enctype="multipart/form-data">
+    <label for="retrain-file">Upload de Novo Arquivo CSV para Re-treinamento:</label>
+    <input type="file" id="retrain-file" name="file" accept=".csv">
+    <button type="button" onclick="retrainModels()">Re-treinar</button>
+</form>
+<div id="retrain-result"></div>
+
+<script>
+    function makePrediction() {
+        const formData = {};
+        const container = document.getElementById('prediction-form-container');
+        const features = container.dataset.features.split(',');
+
+        features.forEach(feature => {
+            formData[feature] = parseFloat(document.getElementById(feature).value) || 0;
+        });
+
+        fetch('/predict', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('prediction-result').innerText = 'Prediction: ' + data.prediction;
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+
+    function makeCategoryPrediction() {
+        const formData = {};
+        const container = document.getElementById('category-prediction-form-container');
+        const features = container.dataset.categoryFeatures.split(',');
+
+        features.forEach(feature => {
+            formData[feature] = parseFloat(document.getElementById(feature).value) || 0;
+        });
+
+        fetch('/predict_category', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('category-prediction-result').innerText = 'Prediction: ' + data.prediction;
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+
+    function retrainModels() {
+        const formData = new FormData();
+        const fileInput = document.getElementById('retrain-file');
+
+        if (fileInput.files.length === 0) {
+            alert('Por favor, selecione um arquivo CSV para re-treinamento.');
+            return;
+        }
+
+        formData.append('file', fileInput.files[0]);
+
+        fetch('/retrain', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('retrain-result').innerText = data.message;
+
+            if (data.status === 'success') {
+                // Atualiza os gráficos com as novas imagens
+                document.getElementById('barChart').src = `/static/images/${data.charts.bar_chart}?${new Date().getTime()}`;
+                document.getElementById('pieChart').src = `/static/images/${data.charts.pie_chart}?${new Date().getTime()}`;
+                document.getElementById('scatterPlot').src = `/static/images/${data.charts.scatter_plot}?${new Date().getTime()}`;
+                document.getElementById('boxplot').src = `/static/images/${data.charts.boxplot}?${new Date().getTime()}`;
+                document.getElementById('heatmap').src = `/static/images/${data.charts.heatmap}?${new Date().getTime()}`;
+            }
+        })
+        .catch(error => {
+            console.error('Erro:', error);
+            document.getElementById('retrain-result').innerText = 'Erro ao re-treinar os modelos.';
+        });
+    }
+</script>
+{% endblock %}
