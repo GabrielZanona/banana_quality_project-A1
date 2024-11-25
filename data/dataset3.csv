@@ -1,0 +1,1001 @@
+sample_id,variety,region,quality_score,quality_category,ripeness_index,ripeness_category,sugar_content_brix,firmness_kgf,length_cm
+1,Manzano,Colombia,3.47,Processing,6.97,Overripe,22.04,4.91,29.41
+2,Fehi,Colombia,1.92,Processing,3.94,Overripe,19.52,1.48,17.58
+3,Burro,Honduras,1.11,Good,6.17,Ripe,20.24,4.09,18.62
+4,Red Dacca,Colombia,3.08,Processing,2.66,Turning,24.04,2.58,13.61
+5,Red Dacca,Ecuador,2.7,Premium,4.98,Ripe,23.15,2.36,12.62
+6,Burro,Honduras,2.72,Processing,1.12,Turning,15.73,1.04,27.35
+7,Burro,Costa Rica,3.68,Processing,6.16,Overripe,19.14,4.91,10.68
+8,Manzano,Costa Rica,3.21,Processing,2.39,Turning,20.82,1.7,21.25
+9,Manzano,Ecuador,1.01,Good,1.55,Overripe,15.65,1.15,13.08
+10,Fehi,Honduras,3.05,Processing,3.9,Ripe,24.13,0.64,19.18
+11,Burro,Brazil,3.53,Good,5.82,Turning,22.46,2.46,14.53
+12,Plantain,Colombia,2.61,Good,1.28,Ripe,22.71,1.31,15.55
+13,Plantain,Brazil,3.83,Good,6.17,Ripe,18.04,4.62,23.09
+14,Burro,Guatemala,1.45,Premium,1.59,Overripe,16.07,0.54,16.01
+15,Burro,Guatemala,2.98,Premium,2.87,Green,19.95,3.58,20.36
+16,Fehi,Brazil,2.76,Processing,3.92,Ripe,24.7,3.03,12.38
+17,Burro,Ecuador,3.14,Processing,3.71,Turning,23.09,4.95,15.64
+18,Red Dacca,Honduras,3.62,Good,6.84,Turning,17.71,1.08,24.9
+19,Fehi,Guatemala,3.63,Good,2.12,Turning,24.71,3.99,15.29
+20,Fehi,Brazil,3.16,Processing,4.92,Ripe,15.02,1.49,22.42
+21,Plantain,Colombia,2.52,Processing,5.06,Ripe,21.84,4.34,13.49
+22,Fehi,Colombia,1.43,Good,1.23,Turning,24.34,3.96,21.95
+23,Fehi,Colombia,2.98,Premium,4.93,Turning,15.32,3.19,18.95
+24,Manzano,India,2.05,Premium,1.72,Green,18.1,2.71,24.91
+25,Red Dacca,Guatemala,3.26,Processing,1.32,Green,19.15,2.29,19.4
+26,Plantain,Brazil,1.82,Premium,2.99,Ripe,20.56,3.94,10.09
+27,Plantain,India,2.43,Processing,4.93,Overripe,18.8,4.88,15.13
+28,Fehi,Guatemala,1.01,Good,1.71,Ripe,21.48,4.34,11.42
+29,Manzano,Colombia,3.32,Processing,6.6,Turning,21.77,4.96,20.25
+30,Burro,Colombia,3.21,Good,1.66,Turning,22.1,4.43,26.03
+31,Manzano,Costa Rica,2.07,Unripe,4.64,Overripe,15.61,1.82,26.24
+32,Plantain,Costa Rica,1.04,Good,6.43,Turning,17.46,2.2,15.52
+33,Burro,India,2.71,Processing,4.76,Overripe,21.61,4.76,24.3
+34,Red Dacca,Costa Rica,3.63,Processing,5.35,Green,15.58,1.0,14.83
+35,Red Dacca,Ecuador,3.51,Processing,1.56,Turning,20.63,1.49,29.53
+36,Plantain,Honduras,2.88,Processing,2.53,Ripe,15.66,1.5,22.75
+37,Fehi,Brazil,3.02,Good,6.3,Turning,20.25,3.25,24.0
+38,Fehi,Brazil,1.13,Good,1.87,Overripe,21.5,4.2,22.63
+39,Plantain,Costa Rica,2.97,Processing,3.87,Ripe,21.95,0.7,16.34
+40,Red Dacca,Guatemala,1.76,Good,3.47,Turning,21.8,1.03,16.57
+41,Red Dacca,Ecuador,1.02,Processing,4.46,Green,15.79,4.74,12.8
+42,Red Dacca,Brazil,2.75,Good,6.43,Turning,16.77,3.4,13.13
+43,Burro,Ecuador,1.78,Good,1.35,Overripe,16.71,1.18,28.54
+44,Fehi,Ecuador,3.83,Processing,6.01,Ripe,23.98,1.89,22.45
+45,Manzano,India,1.24,Good,4.02,Overripe,20.51,2.08,12.02
+46,Fehi,Guatemala,2.26,Good,1.56,Green,20.81,0.6,22.4
+47,Plantain,Colombia,2.62,Processing,4.85,Overripe,23.2,1.25,13.42
+48,Red Dacca,Costa Rica,2.21,Processing,1.79,Turning,24.31,3.61,13.03
+49,Plantain,India,2.91,Processing,6.91,Overripe,23.85,3.14,11.81
+50,Burro,India,2.09,Good,4.75,Overripe,15.17,3.52,17.57
+51,Fehi,India,2.89,Premium,4.71,Ripe,23.96,2.38,28.25
+52,Burro,India,2.17,Good,4.16,Green,19.91,2.99,18.3
+53,Red Dacca,Costa Rica,2.43,Processing,3.14,Ripe,24.93,4.97,22.45
+54,Red Dacca,Honduras,3.03,Good,1.82,Overripe,22.78,3.0,20.88
+55,Manzano,Guatemala,2.82,Good,4.34,Overripe,18.63,3.65,25.16
+56,Manzano,Brazil,3.48,Processing,2.71,Turning,22.65,1.29,21.47
+57,Manzano,Brazil,3.9,Processing,4.63,Ripe,15.02,4.39,22.16
+58,Fehi,Ecuador,3.44,Processing,5.26,Green,24.9,1.87,29.64
+59,Fehi,Guatemala,3.44,Processing,4.85,Green,15.64,4.17,28.93
+60,Manzano,Guatemala,2.3,Processing,5.25,Overripe,24.0,4.82,22.26
+61,Manzano,Brazil,2.86,Good,4.85,Ripe,23.77,4.73,27.37
+62,Plantain,Ecuador,3.63,Premium,4.39,Ripe,22.63,3.92,19.09
+63,Red Dacca,India,3.39,Good,1.57,Turning,24.4,1.62,23.65
+64,Plantain,Costa Rica,3.87,Good,3.57,Overripe,19.01,2.72,22.81
+65,Red Dacca,Costa Rica,1.47,Processing,4.22,Ripe,19.57,1.64,12.08
+66,Plantain,Costa Rica,1.31,Good,2.23,Overripe,15.99,4.19,29.01
+67,Red Dacca,Honduras,1.07,Good,2.05,Ripe,24.11,1.78,13.59
+68,Burro,Colombia,1.79,Good,6.52,Turning,22.26,4.43,14.23
+69,Red Dacca,Guatemala,3.54,Premium,1.92,Ripe,23.89,1.31,16.18
+70,Manzano,India,1.09,Processing,2.4,Overripe,18.64,4.51,22.06
+71,Fehi,Brazil,3.35,Premium,3.97,Turning,19.98,2.05,21.44
+72,Plantain,Ecuador,2.51,Good,2.75,Ripe,15.93,2.33,28.84
+73,Manzano,Ecuador,1.25,Unripe,1.87,Ripe,15.89,4.16,19.35
+74,Plantain,Costa Rica,2.45,Premium,3.96,Ripe,23.21,1.2,23.77
+75,Fehi,Brazil,3.3,Processing,5.57,Overripe,21.91,2.36,25.63
+76,Burro,Honduras,2.5,Processing,1.58,Ripe,18.23,4.35,12.18
+77,Burro,Brazil,2.39,Good,2.33,Overripe,22.44,0.6,23.28
+78,Burro,Colombia,3.06,Good,4.55,Turning,24.49,4.53,21.61
+79,Red Dacca,Honduras,1.17,Good,2.61,Green,22.53,3.32,16.35
+80,Red Dacca,Colombia,1.19,Good,3.18,Ripe,21.82,3.57,11.23
+81,Red Dacca,Honduras,3.97,Processing,1.59,Turning,18.83,2.87,14.63
+82,Red Dacca,Honduras,1.59,Good,6.78,Turning,22.21,1.45,18.64
+83,Fehi,Honduras,3.93,Unripe,6.01,Ripe,20.31,3.73,13.85
+84,Burro,Honduras,2.7,Processing,2.52,Turning,17.54,3.0,26.73
+85,Red Dacca,Brazil,1.2,Good,5.4,Turning,22.38,4.0,27.73
+86,Burro,Honduras,2.63,Good,3.54,Ripe,16.25,3.05,14.54
+87,Burro,Ecuador,2.5,Processing,5.22,Green,18.15,3.35,21.64
+88,Plantain,Guatemala,3.56,Processing,4.31,Turning,16.84,3.42,22.47
+89,Plantain,Brazil,1.98,Premium,1.97,Overripe,18.97,1.85,26.42
+90,Plantain,Brazil,1.43,Good,1.1,Overripe,16.78,3.65,19.63
+91,Manzano,Honduras,2.2,Premium,5.93,Green,24.71,3.04,18.24
+92,Red Dacca,Ecuador,1.65,Good,6.58,Ripe,18.58,4.14,11.75
+93,Red Dacca,Colombia,1.79,Processing,1.38,Turning,17.45,3.04,14.78
+94,Red Dacca,Costa Rica,2.45,Good,6.56,Turning,22.69,1.27,15.83
+95,Burro,Colombia,1.64,Processing,3.39,Turning,18.84,3.61,19.54
+96,Manzano,Honduras,2.37,Good,6.47,Turning,24.54,2.98,18.04
+97,Manzano,India,3.31,Processing,1.75,Overripe,18.67,2.12,11.08
+98,Red Dacca,Ecuador,2.42,Good,6.4,Green,21.78,3.61,20.2
+99,Red Dacca,Costa Rica,3.35,Premium,2.65,Green,19.23,4.31,13.47
+100,Plantain,Brazil,3.21,Processing,2.35,Ripe,23.61,3.56,10.67
+101,Manzano,Honduras,2.59,Premium,5.31,Turning,15.82,4.76,17.57
+102,Plantain,Honduras,3.69,Good,5.43,Ripe,19.69,3.19,11.24
+103,Red Dacca,Guatemala,3.62,Processing,6.95,Turning,21.24,2.12,19.66
+104,Manzano,Costa Rica,2.41,Processing,1.43,Overripe,22.76,4.15,24.18
+105,Red Dacca,Ecuador,1.72,Good,1.23,Ripe,19.81,4.22,14.13
+106,Red Dacca,Guatemala,3.25,Processing,5.6,Ripe,15.61,1.62,29.09
+107,Red Dacca,India,2.87,Processing,6.57,Overripe,16.52,3.68,14.59
+108,Plantain,Guatemala,2.8,Processing,3.11,Green,19.05,1.51,29.81
+109,Manzano,Guatemala,3.48,Good,6.15,Turning,19.22,3.65,15.4
+110,Fehi,Guatemala,3.48,Good,2.06,Overripe,21.3,1.29,13.31
+111,Red Dacca,Honduras,3.83,Processing,5.67,Ripe,22.08,4.1,16.28
+112,Burro,Colombia,2.72,Good,3.27,Ripe,20.59,3.13,12.73
+113,Red Dacca,Guatemala,1.39,Processing,1.88,Turning,21.3,3.18,21.93
+114,Red Dacca,Costa Rica,1.2,Good,3.84,Turning,16.95,3.89,19.01
+115,Burro,Honduras,1.78,Good,6.59,Overripe,17.99,3.38,21.67
+116,Red Dacca,Ecuador,2.99,Good,4.07,Turning,20.87,4.96,15.08
+117,Red Dacca,Honduras,1.06,Premium,5.37,Ripe,20.9,0.82,28.23
+118,Burro,Colombia,3.11,Good,3.85,Green,15.51,1.25,26.16
+119,Fehi,India,1.73,Good,5.29,Turning,21.95,3.48,26.12
+120,Plantain,Honduras,2.68,Processing,3.0,Ripe,23.77,3.59,19.16
+121,Red Dacca,Ecuador,3.13,Good,2.22,Turning,18.71,1.62,29.77
+122,Burro,Brazil,1.06,Processing,1.22,Ripe,16.82,1.62,24.78
+123,Red Dacca,Costa Rica,2.96,Processing,3.45,Ripe,15.21,2.54,16.44
+124,Manzano,Costa Rica,1.65,Premium,2.9,Ripe,19.86,0.82,28.88
+125,Manzano,Brazil,1.53,Processing,1.15,Turning,22.11,3.71,22.75
+126,Red Dacca,Honduras,1.14,Processing,6.62,Green,15.14,1.61,15.66
+127,Fehi,Colombia,1.37,Premium,4.42,Turning,23.54,1.35,14.84
+128,Burro,Costa Rica,3.35,Processing,4.33,Turning,23.28,4.04,16.78
+129,Red Dacca,Costa Rica,1.55,Unripe,6.47,Overripe,21.22,3.42,20.65
+130,Red Dacca,Guatemala,1.89,Good,1.49,Overripe,20.74,1.7,16.81
+131,Red Dacca,Honduras,1.74,Processing,6.38,Turning,22.99,2.11,13.56
+132,Manzano,Costa Rica,3.71,Good,1.42,Overripe,22.7,2.18,28.47
+133,Red Dacca,Ecuador,2.43,Processing,2.69,Overripe,19.59,3.44,24.09
+134,Red Dacca,Costa Rica,1.72,Processing,2.0,Turning,18.15,4.56,29.68
+135,Manzano,Costa Rica,2.83,Good,3.08,Overripe,19.16,2.23,23.43
+136,Burro,Brazil,2.54,Good,2.23,Ripe,23.32,2.34,16.48
+137,Red Dacca,Ecuador,2.88,Good,1.36,Overripe,15.75,4.78,29.67
+138,Manzano,Costa Rica,3.33,Good,4.36,Overripe,17.51,2.44,13.0
+139,Fehi,India,1.07,Good,1.09,Turning,24.63,1.34,12.5
+140,Red Dacca,Honduras,1.19,Processing,5.77,Overripe,18.4,2.62,15.69
+141,Red Dacca,Costa Rica,2.23,Unripe,3.71,Green,24.49,2.79,27.96
+142,Burro,Colombia,3.85,Processing,4.73,Ripe,23.63,4.77,15.43
+143,Red Dacca,India,2.93,Good,1.63,Overripe,21.72,0.79,12.38
+144,Burro,Guatemala,1.18,Processing,1.38,Ripe,15.63,2.17,26.76
+145,Manzano,Colombia,2.51,Processing,4.51,Overripe,23.85,0.97,28.35
+146,Plantain,Honduras,1.67,Good,5.92,Ripe,18.92,1.95,25.95
+147,Plantain,Brazil,3.35,Processing,1.75,Green,24.3,4.33,13.17
+148,Plantain,Ecuador,1.88,Good,4.78,Ripe,22.0,4.11,17.22
+149,Plantain,Costa Rica,3.18,Processing,4.1,Overripe,21.24,2.06,19.32
+150,Manzano,Colombia,2.47,Premium,6.26,Ripe,23.4,3.62,15.76
+151,Burro,Costa Rica,3.52,Processing,6.82,Ripe,15.78,4.36,28.11
+152,Fehi,Honduras,1.83,Processing,6.78,Green,18.38,2.23,21.6
+153,Red Dacca,Brazil,2.7,Unripe,1.46,Green,17.6,2.57,17.62
+154,Fehi,Guatemala,2.75,Good,3.27,Ripe,20.85,1.18,18.24
+155,Plantain,Honduras,3.7,Processing,6.93,Turning,24.57,2.14,18.61
+156,Red Dacca,Costa Rica,3.01,Processing,4.07,Green,18.86,3.22,17.95
+157,Plantain,Honduras,1.07,Premium,2.83,Turning,20.23,3.12,12.68
+158,Fehi,Brazil,3.48,Unripe,3.54,Turning,23.23,3.25,23.95
+159,Manzano,Honduras,2.91,Premium,2.22,Ripe,19.65,3.47,16.31
+160,Burro,Ecuador,1.82,Processing,5.37,Ripe,17.74,1.27,26.82
+161,Manzano,Brazil,1.58,Good,3.56,Turning,18.79,1.83,26.19
+162,Plantain,Costa Rica,3.55,Good,3.89,Turning,18.31,2.37,16.11
+163,Manzano,India,1.09,Premium,4.73,Overripe,22.23,2.42,11.48
+164,Red Dacca,Honduras,1.11,Processing,3.51,Turning,15.47,3.16,24.46
+165,Fehi,Colombia,3.96,Good,1.61,Turning,22.45,2.95,16.2
+166,Manzano,Ecuador,2.58,Good,1.26,Turning,17.34,2.27,20.69
+167,Manzano,Costa Rica,3.95,Good,1.22,Ripe,23.5,1.49,28.13
+168,Plantain,Brazil,1.11,Processing,1.8,Green,18.36,3.71,16.75
+169,Burro,Ecuador,2.55,Processing,3.25,Turning,22.43,1.8,20.12
+170,Red Dacca,Guatemala,2.62,Unripe,1.08,Overripe,18.56,3.18,26.06
+171,Red Dacca,India,1.47,Good,1.35,Turning,24.07,4.55,13.74
+172,Red Dacca,Brazil,1.96,Processing,3.12,Overripe,16.34,3.86,25.96
+173,Manzano,Ecuador,2.3,Processing,4.27,Overripe,17.71,3.01,26.87
+174,Plantain,Guatemala,3.35,Good,3.31,Turning,23.91,1.06,28.62
+175,Burro,India,2.0,Unripe,5.5,Overripe,23.84,3.19,16.89
+176,Burro,India,3.18,Processing,3.09,Ripe,22.91,3.53,11.31
+177,Red Dacca,India,3.55,Processing,2.51,Ripe,15.54,3.06,24.18
+178,Red Dacca,Ecuador,1.89,Good,4.48,Overripe,20.18,1.34,28.15
+179,Fehi,India,2.01,Processing,5.34,Ripe,21.55,2.36,23.81
+180,Plantain,Brazil,3.16,Processing,2.5,Ripe,23.54,3.77,29.46
+181,Burro,Guatemala,1.4,Processing,4.41,Ripe,22.59,0.73,26.38
+182,Red Dacca,India,2.96,Good,1.6,Overripe,21.16,2.33,10.92
+183,Fehi,Brazil,1.11,Good,5.67,Green,17.43,3.68,12.63
+184,Plantain,Colombia,2.54,Good,1.05,Green,22.47,1.93,17.45
+185,Plantain,Brazil,1.89,Processing,6.03,Turning,18.19,2.99,15.11
+186,Plantain,India,1.35,Good,5.21,Turning,15.67,1.73,12.09
+187,Red Dacca,Costa Rica,2.83,Processing,3.04,Ripe,17.04,3.53,17.77
+188,Manzano,Honduras,1.43,Processing,1.01,Turning,15.0,3.03,24.4
+189,Plantain,Costa Rica,1.83,Processing,6.92,Turning,22.29,4.6,13.78
+190,Red Dacca,Honduras,2.13,Good,6.19,Green,22.13,2.68,13.89
+191,Manzano,Costa Rica,2.73,Premium,6.45,Turning,22.35,4.02,18.26
+192,Manzano,Ecuador,1.53,Good,2.71,Overripe,21.16,3.46,17.57
+193,Manzano,Costa Rica,2.0,Good,1.82,Green,24.71,1.15,13.48
+194,Burro,Honduras,2.23,Processing,4.37,Overripe,16.84,2.27,17.14
+195,Plantain,Colombia,2.93,Premium,6.2,Ripe,20.32,3.29,20.84
+196,Fehi,Ecuador,2.92,Premium,6.0,Ripe,23.14,1.82,14.17
+197,Plantain,India,1.72,Premium,1.89,Turning,18.63,2.85,11.56
+198,Burro,India,1.97,Premium,3.92,Turning,16.02,4.61,14.4
+199,Plantain,India,3.22,Premium,3.03,Overripe,21.63,1.78,17.09
+200,Red Dacca,Honduras,1.46,Premium,2.04,Ripe,22.4,3.96,24.73
+201,Fehi,Colombia,1.1,Premium,5.5,Ripe,21.34,3.31,24.21
+202,Manzano,Guatemala,1.46,Processing,6.41,Turning,19.29,3.56,27.24
+203,Red Dacca,Honduras,1.47,Good,6.3,Overripe,20.33,2.84,16.3
+204,Manzano,Colombia,2.87,Processing,6.07,Green,19.97,2.53,10.69
+205,Manzano,Brazil,1.23,Premium,2.6,Turning,24.51,1.7,13.95
+206,Manzano,Colombia,1.76,Processing,5.83,Ripe,15.43,3.33,20.3
+207,Plantain,India,3.07,Premium,6.37,Turning,24.82,4.84,17.16
+208,Fehi,Costa Rica,2.52,Good,2.05,Ripe,21.36,4.14,11.15
+209,Manzano,Colombia,3.79,Processing,6.86,Overripe,16.15,3.91,16.07
+210,Manzano,Guatemala,2.82,Premium,5.5,Green,15.03,4.84,19.2
+211,Red Dacca,India,2.37,Premium,6.71,Green,16.83,1.94,18.22
+212,Fehi,Ecuador,1.81,Good,2.23,Ripe,24.4,4.37,23.61
+213,Red Dacca,Colombia,1.53,Good,4.04,Overripe,22.8,1.88,14.07
+214,Manzano,Brazil,1.31,Processing,6.98,Turning,16.13,1.23,24.71
+215,Red Dacca,Brazil,1.14,Premium,2.57,Overripe,18.36,1.26,16.48
+216,Manzano,Guatemala,2.62,Good,3.56,Overripe,16.26,4.84,17.5
+217,Red Dacca,Ecuador,3.23,Good,5.9,Ripe,19.42,4.58,26.1
+218,Fehi,Guatemala,3.57,Premium,3.25,Ripe,19.58,4.61,14.38
+219,Manzano,Guatemala,2.28,Processing,6.83,Ripe,16.14,0.52,13.93
+220,Manzano,Honduras,2.22,Good,3.16,Turning,17.71,4.62,22.77
+221,Manzano,Honduras,3.85,Processing,1.61,Green,23.1,1.65,18.99
+222,Manzano,Brazil,1.13,Processing,6.69,Green,19.76,1.62,22.23
+223,Red Dacca,Costa Rica,1.62,Premium,5.82,Ripe,24.69,4.83,13.73
+224,Fehi,Brazil,2.63,Good,5.01,Green,23.78,2.78,22.72
+225,Fehi,India,1.36,Good,3.48,Ripe,16.12,4.0,29.39
+226,Plantain,Ecuador,3.64,Good,4.28,Turning,18.55,2.11,24.87
+227,Fehi,Ecuador,3.85,Premium,3.16,Turning,17.19,4.23,19.66
+228,Manzano,Costa Rica,3.84,Good,6.07,Turning,23.58,1.55,13.03
+229,Fehi,Guatemala,3.41,Good,4.52,Overripe,16.95,4.26,26.81
+230,Burro,Ecuador,2.32,Processing,3.68,Green,20.66,3.95,23.07
+231,Plantain,Honduras,2.34,Good,2.71,Green,24.28,4.27,19.57
+232,Manzano,Guatemala,2.15,Processing,5.36,Overripe,17.26,0.71,18.96
+233,Fehi,Honduras,1.36,Premium,4.74,Ripe,15.89,4.33,19.7
+234,Manzano,Ecuador,3.32,Good,6.74,Green,20.2,2.09,16.13
+235,Manzano,India,2.66,Processing,4.49,Turning,19.27,4.79,17.45
+236,Plantain,Colombia,2.39,Processing,1.16,Ripe,23.22,3.58,23.97
+237,Burro,Ecuador,2.95,Processing,5.89,Ripe,16.01,4.34,26.68
+238,Fehi,India,3.33,Processing,1.78,Overripe,16.38,1.18,10.49
+239,Manzano,Guatemala,3.89,Processing,2.48,Overripe,19.79,1.29,15.28
+240,Red Dacca,India,3.94,Processing,4.69,Green,15.07,3.91,12.46
+241,Red Dacca,Guatemala,3.75,Good,1.25,Turning,20.65,1.45,25.78
+242,Fehi,Honduras,1.65,Unripe,5.0,Turning,24.69,2.18,25.59
+243,Plantain,Honduras,1.8,Good,4.31,Ripe,15.57,3.63,11.09
+244,Burro,Honduras,1.98,Good,2.33,Overripe,20.33,0.76,14.19
+245,Red Dacca,Colombia,2.91,Processing,2.67,Turning,18.72,4.17,19.26
+246,Manzano,Colombia,3.89,Processing,2.43,Turning,21.18,3.27,13.37
+247,Red Dacca,Colombia,1.14,Good,3.25,Turning,20.83,4.53,21.0
+248,Red Dacca,Ecuador,1.29,Processing,4.19,Green,19.74,4.34,11.87
+249,Burro,Colombia,3.4,Premium,4.53,Ripe,24.96,0.73,22.22
+250,Red Dacca,Costa Rica,2.73,Processing,3.97,Overripe,24.69,4.13,24.99
+251,Manzano,India,2.09,Good,3.67,Turning,21.94,1.53,20.36
+252,Fehi,Brazil,2.3,Good,4.98,Green,19.8,4.57,29.72
+253,Fehi,Costa Rica,3.72,Premium,6.96,Overripe,16.76,3.94,19.4
+254,Manzano,India,2.06,Good,2.26,Ripe,16.47,1.06,14.18
+255,Fehi,Honduras,1.08,Processing,4.77,Overripe,15.48,4.44,25.92
+256,Manzano,Ecuador,3.43,Unripe,2.6,Overripe,22.56,4.11,22.83
+257,Plantain,Guatemala,1.46,Good,1.79,Overripe,17.99,4.02,17.94
+258,Plantain,Honduras,3.44,Processing,2.64,Green,19.25,4.0,12.08
+259,Fehi,Colombia,1.47,Good,4.24,Green,16.05,0.87,16.67
+260,Fehi,Ecuador,3.56,Good,4.79,Turning,20.25,4.44,27.33
+261,Burro,Brazil,2.36,Good,2.15,Turning,17.61,2.04,13.83
+262,Manzano,Colombia,3.29,Good,2.43,Ripe,24.57,3.64,27.63
+263,Red Dacca,Colombia,3.39,Processing,2.55,Green,24.59,1.35,22.04
+264,Plantain,Costa Rica,1.56,Processing,5.75,Turning,24.95,4.57,25.02
+265,Plantain,Ecuador,3.09,Good,2.16,Green,24.91,4.88,28.36
+266,Burro,Colombia,1.19,Processing,5.0,Ripe,23.87,1.61,15.52
+267,Burro,Guatemala,1.89,Good,2.16,Overripe,21.31,4.05,14.57
+268,Manzano,Guatemala,3.91,Processing,1.33,Overripe,23.86,4.93,25.19
+269,Fehi,Honduras,3.14,Unripe,6.03,Ripe,23.1,3.89,21.28
+270,Red Dacca,Colombia,1.07,Premium,1.94,Turning,24.91,0.85,19.68
+271,Fehi,Costa Rica,1.42,Processing,3.62,Turning,17.02,4.23,22.92
+272,Fehi,Ecuador,2.31,Processing,1.57,Ripe,20.14,2.5,13.74
+273,Plantain,Ecuador,3.12,Good,2.17,Ripe,18.1,1.1,13.45
+274,Red Dacca,India,2.11,Good,3.1,Ripe,16.71,2.02,20.07
+275,Red Dacca,Ecuador,2.97,Good,1.13,Overripe,22.29,4.18,11.69
+276,Fehi,India,1.43,Good,4.13,Turning,19.01,1.47,17.29
+277,Fehi,Honduras,3.78,Processing,3.84,Overripe,21.39,1.31,16.23
+278,Burro,Costa Rica,3.83,Premium,2.02,Green,22.12,2.03,28.52
+279,Manzano,Costa Rica,2.98,Processing,4.59,Ripe,16.31,0.91,14.96
+280,Burro,Colombia,2.0,Good,3.45,Turning,22.84,0.72,15.35
+281,Manzano,India,3.22,Good,1.56,Turning,17.58,4.86,10.32
+282,Burro,Honduras,2.36,Processing,5.75,Turning,18.04,4.42,18.89
+283,Manzano,Colombia,1.29,Processing,4.96,Ripe,22.6,4.81,22.44
+284,Plantain,Ecuador,1.7,Good,2.2,Ripe,21.06,2.66,22.94
+285,Plantain,Colombia,2.15,Premium,1.47,Ripe,20.14,1.79,13.71
+286,Burro,Guatemala,3.08,Good,6.64,Overripe,24.76,2.38,23.98
+287,Fehi,Colombia,2.6,Processing,2.65,Overripe,24.58,2.39,27.14
+288,Fehi,Costa Rica,1.44,Good,5.47,Ripe,17.58,2.17,23.74
+289,Burro,Guatemala,3.47,Premium,3.92,Overripe,23.96,2.83,21.81
+290,Plantain,Guatemala,3.89,Premium,3.44,Turning,17.93,3.35,25.75
+291,Fehi,Costa Rica,3.99,Good,1.28,Ripe,16.6,4.81,29.53
+292,Red Dacca,Honduras,1.53,Premium,2.91,Overripe,20.27,1.51,23.7
+293,Plantain,Costa Rica,1.17,Processing,5.98,Green,22.71,1.31,10.85
+294,Fehi,Costa Rica,2.59,Premium,6.5,Turning,17.0,3.49,21.22
+295,Manzano,Honduras,1.11,Processing,5.23,Ripe,16.07,1.07,20.96
+296,Fehi,Costa Rica,1.13,Processing,5.4,Ripe,23.19,3.95,26.72
+297,Burro,Ecuador,2.57,Good,5.09,Overripe,18.13,3.57,11.94
+298,Red Dacca,Costa Rica,1.31,Processing,2.55,Green,22.09,3.58,24.01
+299,Fehi,Guatemala,2.82,Good,6.69,Overripe,24.32,4.36,22.54
+300,Fehi,Honduras,1.05,Processing,5.81,Ripe,22.86,2.97,17.32
+301,Red Dacca,Brazil,2.7,Good,6.78,Turning,24.89,3.5,27.65
+302,Burro,Colombia,2.8,Processing,3.51,Ripe,15.94,2.24,25.69
+303,Burro,Ecuador,2.12,Good,2.51,Turning,24.2,2.55,14.93
+304,Red Dacca,Guatemala,3.23,Good,1.82,Turning,17.93,3.98,19.52
+305,Burro,Ecuador,2.16,Processing,3.93,Ripe,24.16,0.8,23.14
+306,Plantain,Costa Rica,3.89,Premium,2.38,Turning,20.84,1.71,20.74
+307,Fehi,India,3.53,Unripe,1.15,Green,17.59,0.72,17.95
+308,Fehi,Colombia,3.77,Premium,5.54,Turning,20.55,0.7,22.88
+309,Fehi,Guatemala,3.49,Premium,6.08,Turning,22.51,2.28,17.35
+310,Burro,Guatemala,3.39,Processing,5.42,Green,24.59,2.47,16.63
+311,Red Dacca,Costa Rica,2.81,Good,3.37,Overripe,22.36,1.05,21.93
+312,Fehi,Colombia,3.71,Processing,4.97,Green,20.73,1.3,16.49
+313,Fehi,Guatemala,1.87,Premium,2.77,Turning,18.6,3.5,13.49
+314,Burro,Brazil,2.07,Premium,4.86,Green,20.97,2.39,27.04
+315,Burro,Costa Rica,1.97,Processing,5.61,Ripe,15.18,4.72,13.3
+316,Plantain,Colombia,3.45,Good,1.31,Turning,16.56,3.34,11.38
+317,Fehi,Honduras,1.85,Processing,3.59,Overripe,15.37,4.57,17.83
+318,Fehi,Brazil,2.65,Processing,6.74,Overripe,17.42,2.06,28.88
+319,Red Dacca,Colombia,3.94,Processing,2.09,Overripe,19.0,0.51,16.56
+320,Manzano,India,3.8,Good,2.16,Overripe,15.08,3.73,14.42
+321,Red Dacca,Colombia,2.67,Processing,5.31,Turning,23.66,2.13,16.37
+322,Fehi,Ecuador,1.49,Good,4.13,Overripe,19.45,3.41,19.51
+323,Plantain,Costa Rica,1.99,Processing,4.83,Ripe,24.78,2.31,19.53
+324,Plantain,India,2.78,Good,4.65,Turning,17.09,1.01,21.17
+325,Fehi,Guatemala,2.96,Premium,5.37,Turning,20.44,3.87,27.61
+326,Fehi,India,3.2,Good,1.13,Turning,24.0,1.42,13.27
+327,Manzano,Ecuador,3.52,Good,3.94,Overripe,24.04,4.7,29.25
+328,Red Dacca,India,2.06,Processing,3.89,Turning,17.91,1.38,11.09
+329,Manzano,Colombia,2.57,Good,4.89,Overripe,17.06,4.18,23.69
+330,Red Dacca,Guatemala,1.1,Processing,1.89,Ripe,17.62,1.13,29.41
+331,Plantain,Ecuador,2.07,Unripe,6.88,Ripe,22.5,2.1,21.04
+332,Red Dacca,Guatemala,2.7,Processing,5.18,Overripe,19.81,2.78,27.41
+333,Burro,Colombia,3.88,Processing,6.3,Green,15.02,1.65,10.62
+334,Fehi,Brazil,1.02,Processing,3.34,Ripe,20.54,1.02,10.26
+335,Plantain,Honduras,3.76,Processing,2.63,Turning,18.78,2.63,28.49
+336,Red Dacca,Ecuador,1.19,Good,5.1,Overripe,15.95,1.53,12.75
+337,Manzano,Costa Rica,2.24,Processing,6.48,Turning,15.52,1.59,23.23
+338,Manzano,Costa Rica,2.52,Processing,1.0,Ripe,23.41,1.45,14.84
+339,Manzano,Guatemala,1.81,Processing,6.31,Turning,17.15,2.82,20.69
+340,Red Dacca,Guatemala,1.53,Unripe,5.6,Overripe,15.36,4.56,15.63
+341,Plantain,Colombia,3.06,Processing,5.26,Turning,17.81,4.89,19.34
+342,Red Dacca,Brazil,3.89,Good,3.41,Ripe,17.26,1.88,27.18
+343,Burro,Brazil,1.82,Processing,6.32,Turning,16.25,2.11,12.84
+344,Plantain,Honduras,1.73,Good,4.55,Green,18.65,3.5,24.6
+345,Burro,India,3.3,Processing,4.13,Overripe,15.76,1.25,28.31
+346,Red Dacca,India,2.18,Good,1.87,Green,18.72,2.93,18.71
+347,Red Dacca,Guatemala,1.34,Good,5.85,Green,23.0,2.03,20.34
+348,Burro,Guatemala,1.38,Premium,1.54,Overripe,22.73,3.95,21.25
+349,Plantain,Honduras,1.98,Processing,4.28,Turning,24.53,4.16,15.68
+350,Plantain,Honduras,1.76,Processing,1.49,Turning,20.53,4.97,11.55
+351,Fehi,Colombia,2.43,Processing,1.34,Ripe,22.71,0.84,22.79
+352,Burro,Ecuador,3.13,Premium,6.97,Overripe,24.12,1.25,16.27
+353,Red Dacca,Colombia,3.1,Good,1.85,Turning,20.42,2.72,25.63
+354,Burro,Brazil,1.16,Processing,2.68,Ripe,19.87,3.82,28.38
+355,Red Dacca,Costa Rica,1.28,Good,3.08,Turning,19.55,2.8,13.16
+356,Manzano,Costa Rica,2.58,Good,1.39,Green,23.59,2.26,12.87
+357,Fehi,Colombia,3.5,Good,4.47,Turning,24.82,4.07,22.72
+358,Plantain,Honduras,2.65,Unripe,6.25,Green,24.27,4.94,21.71
+359,Burro,Costa Rica,3.39,Processing,4.75,Ripe,20.12,1.21,20.2
+360,Manzano,Colombia,3.39,Unripe,1.74,Green,17.89,1.55,14.67
+361,Manzano,Colombia,3.93,Processing,3.56,Ripe,23.94,1.92,22.42
+362,Red Dacca,Brazil,2.48,Good,2.78,Ripe,15.7,3.92,19.84
+363,Fehi,Costa Rica,3.06,Unripe,1.02,Green,18.8,2.21,24.62
+364,Fehi,Ecuador,3.78,Good,6.27,Ripe,24.45,3.09,29.24
+365,Red Dacca,Honduras,2.28,Good,1.25,Turning,21.8,1.38,17.56
+366,Fehi,Colombia,1.2,Premium,2.45,Turning,16.88,2.77,18.01
+367,Fehi,Honduras,1.11,Good,5.6,Turning,20.43,0.97,11.27
+368,Burro,Brazil,2.36,Good,2.82,Green,21.37,3.36,17.07
+369,Burro,Guatemala,2.14,Processing,6.45,Ripe,22.46,2.26,17.18
+370,Manzano,Ecuador,2.71,Processing,3.97,Ripe,24.2,3.53,29.89
+371,Burro,Ecuador,1.87,Premium,1.14,Ripe,17.88,3.03,23.21
+372,Fehi,Brazil,1.05,Good,2.87,Ripe,21.26,2.07,26.86
+373,Red Dacca,Colombia,3.24,Good,3.52,Ripe,24.25,1.32,22.31
+374,Red Dacca,Honduras,1.72,Good,3.19,Turning,18.34,2.98,13.83
+375,Plantain,India,2.31,Premium,2.82,Ripe,19.12,2.58,16.62
+376,Burro,Colombia,2.25,Processing,2.55,Ripe,21.81,1.62,12.99
+377,Fehi,Ecuador,3.14,Premium,5.34,Green,24.52,2.69,10.17
+378,Burro,Costa Rica,3.18,Good,1.89,Overripe,20.96,0.73,14.43
+379,Burro,Costa Rica,2.5,Premium,5.96,Ripe,19.19,0.81,17.59
+380,Burro,Costa Rica,1.13,Good,6.82,Turning,18.27,4.76,27.28
+381,Fehi,Ecuador,3.86,Processing,2.27,Overripe,18.08,3.18,21.17
+382,Fehi,Costa Rica,1.06,Good,3.09,Green,21.96,4.71,20.6
+383,Burro,Colombia,2.29,Good,1.14,Green,24.78,2.61,22.11
+384,Fehi,Costa Rica,3.72,Good,2.31,Overripe,15.96,1.99,24.45
+385,Manzano,Costa Rica,2.37,Processing,6.14,Overripe,19.18,4.21,27.57
+386,Plantain,Honduras,1.71,Premium,5.97,Green,23.22,3.92,21.33
+387,Red Dacca,Ecuador,2.58,Premium,1.51,Turning,16.77,1.27,17.63
+388,Burro,Costa Rica,1.13,Good,5.0,Overripe,22.47,1.15,28.08
+389,Red Dacca,India,2.36,Good,3.38,Overripe,21.29,4.74,24.29
+390,Plantain,Brazil,3.44,Premium,5.11,Turning,19.66,4.99,27.81
+391,Red Dacca,Costa Rica,2.06,Processing,5.32,Ripe,15.14,4.18,11.77
+392,Red Dacca,Colombia,1.25,Processing,3.28,Ripe,24.9,4.23,27.9
+393,Manzano,Ecuador,2.67,Processing,1.32,Ripe,16.86,0.74,12.42
+394,Fehi,Costa Rica,1.23,Premium,5.17,Turning,15.5,4.34,12.57
+395,Plantain,Honduras,2.95,Good,1.78,Turning,24.95,2.66,19.06
+396,Fehi,India,3.23,Premium,2.6,Ripe,15.14,2.85,14.33
+397,Burro,Honduras,3.4,Good,4.16,Overripe,24.4,4.29,24.46
+398,Burro,Brazil,1.28,Processing,3.88,Overripe,19.58,3.77,16.05
+399,Red Dacca,Colombia,1.3,Good,1.96,Green,19.09,1.97,14.1
+400,Red Dacca,Guatemala,1.59,Good,2.14,Ripe,22.1,0.96,16.19
+401,Red Dacca,Ecuador,1.6,Good,3.44,Green,16.6,3.92,10.6
+402,Burro,Honduras,2.19,Processing,2.35,Ripe,22.2,1.98,14.17
+403,Red Dacca,Colombia,3.03,Processing,4.85,Ripe,20.77,3.43,21.2
+404,Red Dacca,Guatemala,3.87,Good,2.82,Turning,19.42,2.83,16.89
+405,Red Dacca,Brazil,1.27,Good,2.48,Turning,21.19,3.63,20.91
+406,Red Dacca,Ecuador,3.09,Processing,2.4,Turning,16.75,1.65,16.83
+407,Red Dacca,Guatemala,3.52,Processing,6.6,Ripe,21.82,2.89,10.57
+408,Burro,Colombia,2.06,Good,3.24,Turning,23.36,4.44,23.8
+409,Burro,Brazil,2.97,Good,3.2,Green,16.42,4.31,20.26
+410,Manzano,Brazil,1.28,Unripe,6.2,Overripe,23.19,4.3,12.47
+411,Manzano,Costa Rica,3.09,Good,6.9,Ripe,20.89,0.82,24.5
+412,Red Dacca,Colombia,2.46,Good,5.01,Green,23.07,0.52,14.94
+413,Fehi,Brazil,2.63,Processing,4.52,Turning,18.77,4.32,13.29
+414,Manzano,Honduras,1.37,Processing,4.34,Ripe,24.1,2.71,14.83
+415,Plantain,Honduras,3.55,Premium,1.69,Turning,16.84,1.46,25.6
+416,Manzano,Ecuador,2.33,Good,1.84,Turning,21.84,2.94,22.51
+417,Manzano,Colombia,2.28,Processing,4.54,Turning,21.84,1.49,15.42
+418,Red Dacca,Honduras,1.64,Premium,2.51,Ripe,20.45,3.38,17.94
+419,Plantain,Ecuador,3.78,Processing,5.81,Ripe,24.44,2.19,16.74
+420,Fehi,Honduras,1.22,Unripe,3.47,Ripe,21.52,3.63,23.64
+421,Plantain,Costa Rica,3.56,Processing,1.24,Overripe,23.75,4.86,25.47
+422,Manzano,India,3.58,Good,6.19,Overripe,15.19,3.95,22.03
+423,Burro,Guatemala,1.23,Processing,2.02,Ripe,19.13,4.16,10.87
+424,Red Dacca,Guatemala,3.82,Good,4.25,Green,24.67,1.59,23.89
+425,Fehi,India,2.39,Premium,1.53,Ripe,15.29,0.57,13.88
+426,Burro,Costa Rica,2.98,Processing,5.3,Green,23.46,2.1,27.14
+427,Burro,Guatemala,3.3,Processing,6.57,Ripe,22.19,2.17,11.56
+428,Fehi,India,1.88,Processing,2.18,Ripe,15.15,4.48,16.04
+429,Plantain,Honduras,3.23,Good,6.86,Ripe,23.31,3.13,10.13
+430,Manzano,Colombia,2.82,Processing,6.61,Ripe,24.69,0.98,14.66
+431,Manzano,Brazil,3.5,Processing,1.45,Turning,20.13,2.38,15.75
+432,Burro,Ecuador,2.05,Good,5.32,Ripe,23.62,2.39,27.71
+433,Red Dacca,Costa Rica,2.03,Good,6.82,Ripe,16.52,1.71,15.05
+434,Fehi,India,1.31,Unripe,6.64,Ripe,16.65,2.23,27.62
+435,Red Dacca,Colombia,2.55,Good,3.52,Turning,16.11,0.6,18.29
+436,Plantain,Brazil,3.1,Good,5.12,Turning,23.44,1.63,20.1
+437,Burro,Costa Rica,2.73,Good,3.09,Turning,15.75,0.73,19.4
+438,Red Dacca,Guatemala,2.49,Premium,6.23,Turning,20.82,1.83,27.28
+439,Manzano,Colombia,3.33,Good,6.66,Overripe,19.61,0.71,24.42
+440,Red Dacca,India,3.4,Processing,6.06,Turning,18.6,1.0,28.36
+441,Fehi,Honduras,2.28,Processing,1.91,Turning,22.49,3.33,26.52
+442,Fehi,Brazil,3.14,Good,4.79,Ripe,15.0,0.93,16.67
+443,Red Dacca,Guatemala,3.68,Good,6.3,Overripe,17.84,4.2,22.05
+444,Fehi,Brazil,3.71,Good,6.78,Overripe,24.9,2.93,25.38
+445,Burro,India,1.55,Premium,3.43,Ripe,22.73,3.26,20.69
+446,Red Dacca,India,1.6,Good,4.29,Turning,19.93,3.93,26.28
+447,Plantain,India,3.96,Premium,2.86,Overripe,24.4,1.51,14.8
+448,Burro,Brazil,2.48,Good,5.05,Overripe,19.53,2.44,24.64
+449,Fehi,Costa Rica,1.59,Good,1.37,Ripe,18.35,1.87,21.95
+450,Fehi,Guatemala,3.29,Processing,1.56,Green,21.07,2.46,19.84
+451,Red Dacca,Brazil,3.41,Premium,3.42,Ripe,20.28,2.0,20.85
+452,Burro,Ecuador,2.36,Processing,4.98,Ripe,23.13,1.85,27.19
+453,Plantain,Guatemala,3.52,Processing,3.56,Overripe,18.91,3.9,27.91
+454,Manzano,Honduras,3.59,Premium,6.2,Turning,19.66,4.81,12.72
+455,Red Dacca,Ecuador,2.53,Good,1.23,Ripe,16.58,4.5,14.06
+456,Fehi,Guatemala,3.76,Good,1.9,Overripe,19.78,1.64,25.13
+457,Red Dacca,Ecuador,3.32,Processing,4.79,Green,17.43,2.03,25.37
+458,Plantain,Costa Rica,2.6,Processing,1.72,Ripe,24.99,0.64,29.36
+459,Red Dacca,Colombia,3.45,Good,5.07,Ripe,22.6,0.66,24.53
+460,Red Dacca,Costa Rica,1.08,Premium,3.44,Ripe,15.05,4.92,26.15
+461,Red Dacca,India,1.71,Processing,3.82,Overripe,15.79,4.39,27.47
+462,Plantain,Costa Rica,3.5,Premium,2.76,Overripe,20.56,1.27,23.43
+463,Fehi,Honduras,1.45,Processing,2.84,Ripe,21.94,2.45,24.24
+464,Manzano,Guatemala,2.25,Processing,1.19,Turning,22.44,3.86,11.09
+465,Manzano,Ecuador,3.09,Good,6.54,Green,24.25,1.75,16.67
+466,Burro,Colombia,1.79,Processing,6.31,Turning,18.49,3.89,25.55
+467,Red Dacca,Ecuador,1.85,Good,2.64,Green,23.92,3.29,13.13
+468,Fehi,Guatemala,2.49,Processing,4.12,Turning,19.22,4.5,28.26
+469,Fehi,India,2.94,Good,6.83,Turning,20.69,3.52,26.93
+470,Manzano,Brazil,1.68,Good,5.32,Turning,15.66,2.11,26.26
+471,Plantain,Costa Rica,1.53,Good,5.18,Overripe,23.63,4.87,11.14
+472,Burro,Brazil,3.27,Processing,5.48,Turning,16.5,0.79,24.87
+473,Burro,Honduras,2.42,Good,6.84,Ripe,17.39,4.93,19.47
+474,Red Dacca,Colombia,3.41,Good,3.9,Turning,21.9,4.64,13.14
+475,Plantain,Colombia,1.29,Unripe,3.46,Ripe,22.34,2.49,29.11
+476,Burro,Colombia,3.27,Premium,4.39,Overripe,20.8,1.24,25.48
+477,Red Dacca,India,2.19,Premium,1.06,Green,17.5,1.04,23.64
+478,Fehi,Costa Rica,2.32,Processing,4.59,Overripe,24.03,3.21,23.21
+479,Burro,India,1.51,Processing,1.33,Turning,16.79,3.75,20.1
+480,Red Dacca,Costa Rica,2.4,Processing,4.38,Ripe,20.27,2.56,26.81
+481,Fehi,Brazil,3.79,Good,1.87,Overripe,21.59,4.78,28.3
+482,Burro,Costa Rica,3.65,Premium,6.85,Green,16.55,1.51,21.65
+483,Plantain,Costa Rica,2.79,Processing,1.8,Ripe,15.13,4.18,15.85
+484,Manzano,Honduras,3.97,Premium,2.52,Overripe,16.43,3.06,19.87
+485,Fehi,Guatemala,2.7,Good,1.3,Turning,16.49,3.07,14.99
+486,Manzano,Ecuador,2.44,Good,6.5,Turning,22.89,3.61,18.07
+487,Red Dacca,Brazil,3.46,Good,4.56,Overripe,24.8,4.84,20.37
+488,Plantain,Brazil,1.33,Good,4.57,Ripe,23.35,0.75,28.56
+489,Plantain,Ecuador,3.82,Good,3.98,Ripe,22.15,3.6,15.94
+490,Red Dacca,Costa Rica,2.34,Unripe,6.29,Turning,17.29,3.57,26.38
+491,Manzano,Costa Rica,1.52,Good,3.07,Ripe,21.46,4.85,14.57
+492,Red Dacca,Guatemala,2.62,Good,2.05,Turning,17.59,3.78,27.04
+493,Fehi,Guatemala,1.67,Processing,1.24,Ripe,23.4,3.77,25.11
+494,Fehi,Colombia,2.16,Premium,4.04,Overripe,17.25,0.92,18.46
+495,Plantain,Brazil,3.23,Good,6.8,Ripe,21.1,0.66,10.24
+496,Fehi,India,3.36,Premium,1.75,Turning,15.7,3.99,17.81
+497,Manzano,India,1.37,Processing,1.98,Ripe,16.28,3.87,20.78
+498,Burro,Colombia,2.76,Processing,2.5,Turning,22.64,1.56,17.35
+499,Red Dacca,Guatemala,2.43,Processing,6.28,Turning,20.57,0.75,27.69
+500,Red Dacca,Guatemala,3.21,Premium,6.12,Ripe,15.92,2.95,12.81
+501,Burro,Ecuador,3.21,Processing,2.55,Overripe,21.78,2.99,15.14
+502,Red Dacca,India,2.45,Processing,2.99,Turning,18.58,2.64,18.81
+503,Burro,Costa Rica,3.28,Good,1.85,Overripe,19.54,0.78,16.09
+504,Fehi,Colombia,2.32,Good,6.67,Green,15.91,3.28,29.12
+505,Fehi,Guatemala,3.45,Good,1.88,Turning,24.14,1.72,20.28
+506,Manzano,Honduras,2.88,Processing,1.19,Turning,23.88,3.62,10.39
+507,Manzano,Colombia,1.84,Processing,3.51,Green,18.7,3.19,11.8
+508,Fehi,Guatemala,1.62,Good,1.59,Ripe,22.53,3.87,15.12
+509,Burro,Ecuador,1.66,Good,1.31,Green,15.57,2.72,12.63
+510,Red Dacca,Guatemala,2.54,Processing,5.25,Turning,24.89,4.49,17.84
+511,Red Dacca,India,2.02,Good,3.7,Overripe,24.44,2.82,11.44
+512,Plantain,Guatemala,3.02,Processing,6.27,Green,24.29,2.38,22.33
+513,Burro,Colombia,2.76,Processing,4.08,Ripe,16.14,3.23,22.99
+514,Red Dacca,Colombia,3.79,Processing,3.46,Overripe,22.56,2.62,16.96
+515,Burro,Costa Rica,1.67,Processing,4.68,Turning,24.14,1.76,21.5
+516,Burro,Brazil,1.06,Good,1.46,Turning,16.39,2.27,10.9
+517,Burro,Colombia,1.57,Processing,3.33,Green,15.05,3.65,27.6
+518,Burro,Brazil,2.54,Premium,2.55,Turning,16.19,2.89,24.33
+519,Plantain,Guatemala,3.22,Processing,3.65,Green,16.95,2.72,25.48
+520,Red Dacca,Guatemala,2.58,Processing,5.75,Green,18.35,3.04,10.99
+521,Red Dacca,Ecuador,1.87,Good,3.35,Turning,24.42,1.14,18.95
+522,Fehi,Ecuador,3.83,Good,2.75,Green,15.24,2.94,29.7
+523,Plantain,Brazil,1.62,Processing,1.9,Ripe,20.59,2.56,22.93
+524,Red Dacca,Costa Rica,1.46,Good,2.16,Turning,17.51,0.61,24.55
+525,Manzano,Costa Rica,2.1,Premium,1.96,Ripe,19.93,3.28,27.98
+526,Burro,India,1.07,Good,6.92,Turning,21.13,1.36,18.61
+527,Red Dacca,India,2.03,Good,5.36,Green,22.4,2.95,23.24
+528,Burro,India,2.03,Premium,6.8,Green,20.2,1.87,29.83
+529,Fehi,Brazil,2.01,Premium,2.8,Overripe,17.81,1.38,16.9
+530,Red Dacca,Colombia,2.29,Good,5.67,Green,19.87,0.92,15.85
+531,Burro,Guatemala,2.03,Processing,7.0,Ripe,21.02,0.8,19.58
+532,Plantain,Colombia,3.18,Premium,2.24,Turning,17.36,3.95,24.17
+533,Red Dacca,Guatemala,2.63,Processing,6.73,Green,17.19,4.61,23.16
+534,Red Dacca,Honduras,3.97,Processing,5.28,Overripe,21.81,4.73,19.32
+535,Fehi,Colombia,2.26,Processing,4.02,Turning,22.91,3.54,20.61
+536,Fehi,India,3.44,Good,5.28,Overripe,22.55,0.74,12.29
+537,Burro,Brazil,2.43,Processing,4.71,Turning,23.44,0.65,18.86
+538,Red Dacca,Brazil,2.64,Good,6.97,Overripe,20.21,3.93,10.45
+539,Red Dacca,Brazil,2.86,Premium,6.12,Ripe,22.88,0.89,16.09
+540,Manzano,Brazil,3.42,Processing,4.7,Turning,24.14,4.03,27.17
+541,Fehi,Costa Rica,2.71,Good,4.69,Green,17.06,2.54,29.39
+542,Red Dacca,India,2.68,Premium,4.64,Overripe,17.82,4.75,12.27
+543,Plantain,Ecuador,2.62,Good,2.05,Green,22.59,2.97,23.75
+544,Red Dacca,India,1.79,Good,1.69,Ripe,21.67,3.78,11.84
+545,Fehi,Ecuador,1.55,Good,5.17,Green,24.42,4.37,29.0
+546,Manzano,Ecuador,3.38,Good,6.65,Turning,21.74,2.07,16.04
+547,Plantain,Costa Rica,3.81,Processing,4.88,Overripe,17.21,1.16,23.52
+548,Fehi,Guatemala,1.46,Processing,1.12,Ripe,17.98,1.83,13.1
+549,Fehi,Guatemala,1.06,Processing,5.79,Turning,24.88,2.69,24.53
+550,Red Dacca,Guatemala,2.47,Processing,4.86,Ripe,15.23,4.02,14.43
+551,Fehi,Ecuador,1.62,Processing,2.31,Green,19.81,3.4,17.48
+552,Red Dacca,Brazil,2.2,Premium,6.91,Turning,20.89,3.16,21.82
+553,Plantain,Honduras,1.92,Processing,4.5,Green,17.08,2.17,14.29
+554,Fehi,Brazil,3.08,Premium,1.21,Green,23.08,4.72,21.77
+555,Manzano,Ecuador,2.37,Good,6.38,Ripe,19.62,4.83,13.29
+556,Manzano,Ecuador,1.02,Good,6.74,Overripe,15.32,3.93,15.49
+557,Red Dacca,Honduras,1.9,Unripe,3.78,Turning,15.52,0.58,18.29
+558,Burro,India,1.34,Processing,5.16,Turning,17.0,0.83,23.65
+559,Red Dacca,Guatemala,3.19,Good,3.41,Ripe,17.89,1.05,26.63
+560,Red Dacca,Colombia,3.49,Processing,1.09,Green,18.07,4.47,28.09
+561,Red Dacca,Brazil,1.78,Good,3.66,Green,15.6,4.56,10.71
+562,Burro,Costa Rica,3.31,Good,3.91,Ripe,22.55,4.36,16.35
+563,Burro,Costa Rica,1.3,Unripe,4.08,Ripe,15.32,3.55,26.88
+564,Fehi,Brazil,3.61,Premium,4.62,Overripe,24.02,1.06,24.89
+565,Manzano,Brazil,2.54,Good,5.39,Overripe,18.83,0.9,19.88
+566,Red Dacca,Costa Rica,1.23,Good,1.86,Turning,22.48,4.76,18.92
+567,Plantain,Guatemala,3.36,Good,5.19,Overripe,20.95,1.23,15.89
+568,Fehi,Ecuador,3.15,Premium,5.24,Overripe,22.18,2.39,26.1
+569,Fehi,Guatemala,3.44,Processing,6.88,Overripe,20.23,3.77,26.96
+570,Red Dacca,Costa Rica,1.03,Good,6.58,Turning,23.05,1.44,12.74
+571,Red Dacca,Colombia,2.44,Processing,3.58,Green,24.21,3.41,27.29
+572,Burro,Costa Rica,2.57,Good,4.94,Overripe,19.47,3.15,19.73
+573,Burro,Ecuador,1.28,Good,5.13,Turning,24.38,2.53,25.42
+574,Red Dacca,Guatemala,3.31,Processing,2.76,Overripe,21.45,3.56,21.17
+575,Plantain,Ecuador,3.19,Premium,1.56,Ripe,15.31,3.74,22.27
+576,Fehi,Colombia,1.44,Good,2.68,Green,23.71,3.02,17.6
+577,Red Dacca,Ecuador,2.81,Unripe,5.31,Turning,23.9,1.69,29.81
+578,Burro,Colombia,2.6,Good,6.51,Overripe,20.28,1.08,12.16
+579,Fehi,Colombia,2.99,Processing,1.93,Ripe,15.63,4.88,15.32
+580,Fehi,Ecuador,3.18,Good,2.98,Ripe,15.34,2.81,24.39
+581,Manzano,Honduras,1.59,Good,1.62,Ripe,17.55,1.49,29.8
+582,Burro,Honduras,3.49,Unripe,6.34,Ripe,19.2,2.95,29.85
+583,Manzano,Costa Rica,2.18,Premium,2.73,Turning,15.04,3.59,29.26
+584,Red Dacca,India,2.37,Processing,3.56,Turning,15.65,3.18,26.91
+585,Burro,Ecuador,2.5,Processing,6.03,Ripe,23.03,0.57,23.48
+586,Burro,India,1.63,Processing,1.57,Turning,17.36,2.93,26.72
+587,Burro,Costa Rica,3.75,Premium,2.34,Overripe,24.98,4.0,24.25
+588,Fehi,India,1.93,Unripe,6.82,Turning,18.03,1.54,22.16
+589,Fehi,Ecuador,2.82,Premium,5.13,Overripe,15.06,3.28,11.1
+590,Fehi,Brazil,2.02,Unripe,6.78,Overripe,15.85,3.99,16.59
+591,Fehi,Guatemala,3.9,Good,5.12,Turning,17.57,1.23,16.78
+592,Manzano,Colombia,1.33,Good,5.69,Turning,16.71,2.78,26.07
+593,Manzano,Brazil,2.08,Good,6.72,Turning,24.44,2.06,25.46
+594,Burro,Brazil,3.92,Processing,1.43,Turning,21.91,2.4,24.2
+595,Manzano,India,1.33,Processing,5.03,Ripe,20.6,3.07,18.01
+596,Fehi,Guatemala,2.17,Good,3.18,Turning,15.33,3.98,18.41
+597,Red Dacca,Guatemala,1.23,Good,4.48,Ripe,16.34,4.14,20.28
+598,Burro,Ecuador,3.9,Premium,5.32,Overripe,16.4,4.28,29.31
+599,Red Dacca,India,1.44,Premium,2.75,Turning,24.82,3.49,15.07
+600,Fehi,India,3.56,Processing,5.38,Overripe,15.16,0.81,28.05
+601,Manzano,Costa Rica,1.21,Good,2.5,Turning,24.4,3.17,16.9
+602,Burro,Ecuador,2.48,Good,2.85,Turning,19.11,4.41,15.07
+603,Burro,Honduras,1.99,Good,1.97,Ripe,20.2,2.74,13.24
+604,Fehi,Honduras,2.09,Good,3.33,Turning,24.01,4.28,19.57
+605,Plantain,India,1.63,Good,2.1,Turning,16.62,1.78,22.55
+606,Fehi,India,1.67,Premium,5.97,Green,22.23,2.98,21.81
+607,Fehi,Costa Rica,1.02,Good,4.33,Ripe,22.92,4.71,28.42
+608,Manzano,Honduras,2.26,Processing,5.11,Green,18.15,3.38,20.1
+609,Burro,Guatemala,2.05,Good,6.4,Turning,15.75,3.31,25.46
+610,Plantain,Guatemala,2.24,Processing,5.81,Turning,16.16,4.47,17.61
+611,Burro,Colombia,1.0,Good,6.59,Green,17.55,2.04,28.1
+612,Red Dacca,Colombia,1.87,Good,1.14,Overripe,18.36,1.43,20.98
+613,Burro,Colombia,3.17,Premium,3.43,Ripe,16.13,3.26,17.98
+614,Red Dacca,Colombia,3.93,Good,5.08,Turning,18.05,3.27,25.72
+615,Red Dacca,Costa Rica,2.54,Good,6.83,Overripe,18.33,1.89,29.65
+616,Burro,Costa Rica,2.54,Good,1.36,Ripe,18.58,4.11,25.23
+617,Fehi,Costa Rica,1.03,Good,4.21,Overripe,23.56,4.34,15.99
+618,Fehi,Costa Rica,2.48,Good,4.06,Ripe,24.92,0.65,24.83
+619,Manzano,Guatemala,3.94,Good,5.6,Green,19.05,4.93,12.64
+620,Burro,Colombia,2.07,Good,6.41,Ripe,22.98,4.1,22.2
+621,Red Dacca,Guatemala,3.51,Premium,5.66,Overripe,18.01,0.77,28.11
+622,Manzano,Ecuador,1.89,Good,4.52,Green,19.18,4.93,21.81
+623,Fehi,Brazil,1.55,Processing,2.72,Ripe,23.95,2.76,15.87
+624,Burro,Honduras,1.21,Premium,5.47,Turning,17.6,0.79,21.06
+625,Burro,Guatemala,2.18,Premium,1.78,Turning,17.46,3.58,26.41
+626,Burro,Costa Rica,1.92,Good,2.98,Turning,20.53,4.66,27.99
+627,Red Dacca,Honduras,3.4,Good,4.21,Turning,18.15,0.62,23.45
+628,Manzano,Colombia,1.38,Good,3.42,Ripe,16.12,4.26,19.89
+629,Burro,Costa Rica,3.13,Good,5.73,Overripe,22.76,0.63,29.4
+630,Fehi,India,3.5,Premium,5.63,Turning,15.86,4.91,15.21
+631,Plantain,Brazil,2.09,Good,6.19,Ripe,16.76,0.97,19.88
+632,Red Dacca,Ecuador,2.75,Good,2.64,Overripe,22.53,0.96,19.64
+633,Fehi,India,1.59,Processing,5.11,Ripe,23.9,2.55,18.54
+634,Manzano,Ecuador,3.53,Processing,2.95,Ripe,16.05,3.58,11.4
+635,Plantain,India,2.59,Processing,2.19,Turning,23.14,2.94,23.57
+636,Fehi,Honduras,1.29,Processing,2.46,Turning,20.53,3.25,17.09
+637,Burro,India,2.11,Processing,5.29,Turning,23.75,4.27,21.96
+638,Manzano,Ecuador,3.45,Premium,3.85,Overripe,17.58,0.54,16.57
+639,Red Dacca,Guatemala,2.7,Premium,1.65,Ripe,15.46,2.52,26.86
+640,Burro,Brazil,3.65,Good,1.63,Overripe,22.83,2.87,12.6
+641,Fehi,Brazil,2.78,Premium,6.65,Ripe,18.85,0.59,21.05
+642,Red Dacca,Honduras,2.95,Premium,1.4,Overripe,24.06,3.71,16.75
+643,Fehi,Colombia,3.45,Processing,4.27,Turning,21.9,0.91,23.86
+644,Manzano,Brazil,3.69,Good,3.61,Ripe,15.86,2.97,28.18
+645,Fehi,Ecuador,2.85,Good,4.77,Green,19.79,2.46,10.93
+646,Burro,Costa Rica,1.16,Good,2.88,Turning,24.51,4.48,10.33
+647,Manzano,India,3.54,Good,4.59,Turning,22.16,2.16,20.59
+648,Fehi,Colombia,2.24,Good,1.68,Turning,16.15,4.29,19.18
+649,Plantain,Brazil,2.0,Premium,5.98,Ripe,15.66,1.62,25.43
+650,Red Dacca,Brazil,1.87,Premium,1.64,Turning,16.32,1.23,17.17
+651,Manzano,Honduras,2.31,Processing,2.04,Green,24.01,1.13,29.69
+652,Red Dacca,India,2.41,Unripe,3.24,Overripe,24.8,4.2,17.34
+653,Fehi,Ecuador,2.17,Processing,1.83,Turning,17.03,2.99,19.14
+654,Plantain,India,2.86,Processing,5.36,Ripe,18.29,3.82,22.76
+655,Red Dacca,Brazil,1.05,Processing,4.53,Green,25.0,3.44,21.96
+656,Fehi,Honduras,3.86,Good,2.11,Turning,18.32,2.52,24.67
+657,Burro,Colombia,2.49,Processing,6.06,Ripe,18.99,1.47,18.42
+658,Burro,Ecuador,2.68,Unripe,6.91,Ripe,18.69,3.36,16.17
+659,Red Dacca,Guatemala,3.27,Good,6.25,Ripe,23.83,2.03,27.05
+660,Burro,Honduras,2.35,Good,2.56,Overripe,20.22,4.91,19.51
+661,Plantain,Costa Rica,2.0,Processing,4.65,Green,18.72,1.57,10.17
+662,Fehi,Colombia,2.97,Good,2.46,Turning,22.86,3.62,29.71
+663,Manzano,Guatemala,1.53,Processing,1.35,Ripe,19.06,3.15,25.28
+664,Fehi,Ecuador,3.36,Unripe,4.73,Turning,18.5,2.6,27.41
+665,Red Dacca,Ecuador,1.7,Processing,2.17,Overripe,22.0,3.74,13.15
+666,Burro,Guatemala,1.63,Unripe,3.24,Green,15.78,4.08,26.59
+667,Fehi,Guatemala,2.17,Processing,1.13,Ripe,15.97,4.34,14.4
+668,Manzano,Honduras,1.22,Processing,3.81,Turning,20.92,4.2,10.05
+669,Burro,Colombia,3.84,Good,5.14,Overripe,18.51,2.61,29.34
+670,Manzano,Colombia,3.62,Processing,5.0,Green,16.52,3.39,20.79
+671,Burro,Honduras,3.53,Premium,1.43,Green,23.15,3.45,14.63
+672,Fehi,Colombia,2.0,Good,3.69,Turning,17.12,4.69,24.32
+673,Burro,Colombia,2.34,Good,3.9,Overripe,24.11,3.93,16.53
+674,Burro,Guatemala,3.39,Good,5.82,Turning,18.75,4.35,10.13
+675,Manzano,Costa Rica,2.38,Good,6.24,Green,20.99,0.88,21.18
+676,Manzano,Ecuador,3.82,Good,6.17,Overripe,16.66,1.97,17.44
+677,Burro,Brazil,1.13,Processing,3.67,Green,15.11,2.13,29.0
+678,Burro,Honduras,2.2,Good,6.9,Ripe,23.38,4.42,11.25
+679,Plantain,Brazil,3.27,Processing,3.79,Turning,19.85,3.26,28.21
+680,Red Dacca,Ecuador,1.88,Good,5.46,Ripe,18.16,2.93,18.39
+681,Burro,Honduras,1.83,Premium,2.34,Green,22.65,3.66,29.39
+682,Plantain,Costa Rica,1.09,Good,6.45,Turning,16.85,3.41,17.36
+683,Fehi,Costa Rica,2.58,Premium,4.93,Green,24.33,4.32,18.61
+684,Manzano,Guatemala,1.27,Unripe,1.9,Overripe,17.53,4.31,29.18
+685,Burro,India,1.76,Processing,4.03,Turning,18.57,1.61,10.22
+686,Manzano,Colombia,2.76,Processing,3.45,Ripe,20.36,3.85,15.21
+687,Manzano,Brazil,3.36,Processing,2.73,Green,15.2,1.54,22.76
+688,Red Dacca,Honduras,1.01,Processing,5.63,Green,22.58,0.6,23.44
+689,Burro,Brazil,2.29,Good,3.58,Ripe,24.29,4.65,12.4
+690,Plantain,Honduras,3.57,Good,1.51,Ripe,19.1,1.83,25.46
+691,Red Dacca,Honduras,1.62,Processing,3.5,Overripe,24.13,2.33,28.52
+692,Red Dacca,Ecuador,1.35,Premium,2.68,Ripe,24.01,2.9,20.09
+693,Red Dacca,Honduras,3.35,Unripe,6.2,Ripe,17.29,0.69,26.78
+694,Fehi,India,3.18,Good,1.71,Ripe,24.25,1.64,16.12
+695,Burro,Costa Rica,2.59,Processing,4.72,Ripe,15.44,4.09,15.04
+696,Plantain,Ecuador,1.39,Processing,2.17,Ripe,16.42,4.89,26.97
+697,Fehi,Ecuador,3.17,Processing,1.32,Ripe,15.29,0.93,19.98
+698,Manzano,Honduras,2.98,Good,1.17,Turning,20.57,2.17,26.0
+699,Red Dacca,Guatemala,2.14,Good,2.78,Overripe,17.75,3.81,16.96
+700,Burro,Brazil,3.43,Processing,4.34,Turning,15.96,2.73,26.87
+701,Plantain,Honduras,1.76,Good,3.14,Green,24.93,0.51,11.17
+702,Red Dacca,Ecuador,3.56,Good,5.64,Turning,17.28,3.03,28.66
+703,Fehi,Colombia,2.61,Good,1.72,Green,18.96,0.75,22.9
+704,Burro,Ecuador,1.7,Good,5.16,Turning,22.55,3.22,24.19
+705,Red Dacca,Guatemala,2.41,Premium,4.95,Overripe,23.07,1.44,19.11
+706,Burro,India,3.1,Good,2.79,Ripe,24.07,3.8,25.93
+707,Burro,Guatemala,3.93,Processing,1.85,Overripe,18.26,4.91,16.65
+708,Fehi,Colombia,2.27,Good,4.32,Turning,15.21,3.31,15.82
+709,Red Dacca,Colombia,1.75,Good,1.32,Turning,17.38,2.52,25.66
+710,Manzano,Ecuador,2.02,Good,1.53,Overripe,16.98,3.58,20.84
+711,Burro,Colombia,1.76,Premium,4.2,Green,19.41,0.95,15.39
+712,Fehi,India,3.72,Processing,5.89,Green,19.03,3.85,12.43
+713,Red Dacca,Honduras,3.47,Processing,3.61,Overripe,22.98,3.33,23.45
+714,Plantain,Honduras,1.71,Good,3.59,Green,23.11,3.87,24.86
+715,Manzano,Guatemala,3.73,Processing,5.78,Green,24.72,2.84,25.91
+716,Plantain,Honduras,2.86,Good,5.09,Ripe,19.62,3.85,28.38
+717,Manzano,India,2.43,Premium,1.97,Green,18.29,3.0,16.94
+718,Burro,Colombia,3.57,Good,5.17,Ripe,21.12,2.12,20.55
+719,Manzano,Honduras,3.18,Good,5.93,Turning,23.4,0.76,22.2
+720,Fehi,Ecuador,1.37,Processing,2.59,Overripe,24.23,1.34,29.59
+721,Plantain,Costa Rica,3.79,Processing,5.84,Turning,15.02,0.92,19.73
+722,Burro,Colombia,3.87,Processing,2.55,Overripe,21.61,2.0,12.02
+723,Fehi,Costa Rica,1.42,Processing,1.56,Ripe,15.43,3.57,11.87
+724,Red Dacca,Ecuador,1.6,Processing,1.17,Turning,15.8,3.57,21.15
+725,Red Dacca,Colombia,1.17,Processing,5.51,Ripe,15.71,2.76,23.94
+726,Fehi,Costa Rica,1.6,Processing,1.68,Ripe,24.06,0.5,27.4
+727,Red Dacca,Brazil,1.16,Premium,4.21,Overripe,20.31,2.96,24.6
+728,Red Dacca,Guatemala,1.43,Good,3.26,Overripe,23.62,4.38,25.26
+729,Burro,Costa Rica,1.7,Processing,6.62,Ripe,22.69,3.7,11.37
+730,Fehi,Honduras,1.8,Premium,5.09,Ripe,18.39,4.24,13.84
+731,Plantain,India,3.58,Good,4.44,Turning,16.52,2.06,10.63
+732,Fehi,Costa Rica,1.83,Good,4.63,Green,24.39,2.0,24.38
+733,Fehi,Honduras,1.34,Premium,4.37,Turning,23.83,2.1,21.38
+734,Plantain,Ecuador,3.18,Good,5.72,Overripe,15.18,3.5,26.32
+735,Plantain,India,3.05,Good,4.47,Ripe,15.7,1.44,25.1
+736,Fehi,Ecuador,3.7,Processing,3.55,Green,24.97,3.44,22.2
+737,Red Dacca,Costa Rica,3.96,Premium,1.67,Turning,19.32,1.16,26.53
+738,Manzano,Colombia,3.23,Processing,3.08,Ripe,24.25,2.1,13.95
+739,Red Dacca,Costa Rica,3.24,Premium,2.21,Overripe,20.83,4.72,16.18
+740,Burro,India,1.79,Premium,1.62,Overripe,19.45,3.05,27.78
+741,Plantain,Ecuador,2.76,Processing,6.11,Green,18.01,3.57,28.24
+742,Red Dacca,Colombia,1.33,Premium,5.39,Ripe,20.02,1.65,12.48
+743,Burro,Brazil,3.56,Unripe,1.44,Overripe,24.7,0.99,26.93
+744,Plantain,Colombia,3.25,Good,1.32,Turning,19.63,1.16,20.62
+745,Red Dacca,Guatemala,2.97,Processing,6.92,Ripe,24.15,0.54,29.42
+746,Red Dacca,Guatemala,3.95,Processing,2.7,Overripe,18.7,2.72,14.92
+747,Manzano,India,2.0,Good,4.41,Ripe,17.59,3.27,22.14
+748,Red Dacca,Guatemala,3.3,Good,3.39,Turning,21.63,3.78,12.61
+749,Manzano,India,3.43,Premium,4.96,Ripe,18.06,3.23,14.85
+750,Plantain,Guatemala,2.24,Processing,2.27,Green,15.9,2.49,27.38
+751,Fehi,Costa Rica,3.68,Processing,1.38,Turning,17.26,1.24,29.1
+752,Burro,Honduras,1.89,Good,1.45,Ripe,23.35,1.18,25.57
+753,Fehi,Brazil,2.37,Good,4.58,Overripe,19.29,4.68,24.65
+754,Fehi,Honduras,2.6,Processing,2.46,Overripe,23.42,1.01,11.68
+755,Burro,Brazil,3.86,Premium,3.65,Ripe,16.23,4.1,28.84
+756,Plantain,India,3.74,Good,2.29,Turning,19.99,2.08,15.05
+757,Red Dacca,Brazil,3.15,Processing,3.56,Overripe,16.16,4.73,10.63
+758,Manzano,Honduras,3.45,Good,2.46,Turning,23.26,4.76,21.91
+759,Plantain,India,1.38,Good,3.73,Green,15.01,1.83,29.92
+760,Fehi,Brazil,1.41,Premium,6.0,Turning,22.21,1.09,19.32
+761,Burro,Colombia,1.79,Good,3.07,Ripe,23.35,0.68,29.27
+762,Plantain,Colombia,3.01,Good,2.73,Turning,19.19,3.97,11.15
+763,Fehi,Brazil,2.64,Processing,2.47,Overripe,17.12,2.73,19.92
+764,Fehi,Brazil,3.83,Good,1.51,Overripe,18.45,3.18,24.22
+765,Red Dacca,Ecuador,1.36,Processing,3.86,Green,18.1,4.12,23.07
+766,Red Dacca,India,3.61,Good,5.17,Overripe,22.86,1.97,17.01
+767,Red Dacca,Honduras,2.87,Good,1.93,Green,18.96,4.71,12.44
+768,Red Dacca,Costa Rica,2.52,Premium,2.29,Overripe,20.38,3.95,12.93
+769,Red Dacca,Ecuador,1.05,Processing,6.08,Ripe,20.56,4.4,16.82
+770,Red Dacca,India,2.97,Premium,1.57,Overripe,22.94,4.98,28.77
+771,Burro,Guatemala,2.09,Good,6.69,Overripe,21.66,1.85,14.99
+772,Manzano,Honduras,1.77,Good,2.96,Green,23.34,0.63,21.43
+773,Burro,Honduras,3.56,Processing,5.23,Turning,21.65,2.8,25.03
+774,Red Dacca,Brazil,3.31,Good,6.83,Overripe,15.06,2.99,25.33
+775,Plantain,India,2.23,Processing,6.66,Overripe,21.31,3.56,14.54
+776,Plantain,Costa Rica,2.06,Good,4.96,Ripe,17.73,1.7,23.92
+777,Plantain,Colombia,2.69,Good,1.3,Overripe,17.72,3.78,25.16
+778,Manzano,India,3.76,Processing,1.89,Overripe,23.59,1.77,12.47
+779,Manzano,Honduras,1.25,Good,1.58,Turning,23.4,0.74,28.37
+780,Plantain,Honduras,1.25,Processing,3.53,Ripe,20.85,0.54,11.08
+781,Burro,India,2.67,Good,1.65,Turning,21.44,1.83,16.42
+782,Burro,Ecuador,2.43,Processing,2.53,Turning,15.37,1.66,19.33
+783,Plantain,Guatemala,3.16,Processing,1.48,Overripe,23.64,4.67,10.25
+784,Red Dacca,Honduras,2.95,Good,3.19,Ripe,24.02,2.32,19.1
+785,Manzano,Brazil,3.33,Good,3.58,Green,16.71,0.87,16.87
+786,Burro,Guatemala,3.63,Processing,1.27,Turning,16.04,1.47,12.49
+787,Plantain,India,2.86,Good,4.72,Green,23.27,1.57,10.12
+788,Manzano,Honduras,3.77,Processing,6.98,Turning,21.93,1.08,15.51
+789,Fehi,Honduras,2.61,Good,5.06,Ripe,16.04,4.44,21.99
+790,Plantain,Ecuador,3.94,Good,6.23,Ripe,18.4,2.85,19.94
+791,Burro,Guatemala,3.67,Processing,4.11,Turning,18.36,0.92,15.95
+792,Plantain,Colombia,1.6,Processing,2.52,Green,18.53,3.37,20.94
+793,Red Dacca,Honduras,1.35,Good,5.25,Turning,15.4,4.4,16.79
+794,Plantain,India,2.18,Good,3.57,Green,20.05,1.11,12.59
+795,Manzano,Costa Rica,2.11,Processing,2.7,Overripe,20.63,4.05,22.22
+796,Red Dacca,Honduras,3.07,Good,1.04,Overripe,16.38,2.93,28.7
+797,Red Dacca,Costa Rica,3.19,Good,4.44,Green,20.8,2.11,14.43
+798,Red Dacca,Brazil,2.81,Processing,5.04,Ripe,15.35,1.86,27.26
+799,Red Dacca,Brazil,2.62,Processing,6.6,Ripe,24.31,3.83,28.84
+800,Red Dacca,Ecuador,3.41,Premium,5.56,Ripe,22.23,1.27,11.11
+801,Red Dacca,Colombia,1.54,Processing,2.51,Turning,23.14,3.77,16.74
+802,Red Dacca,Ecuador,2.9,Good,6.61,Turning,23.63,3.48,26.1
+803,Plantain,Guatemala,3.43,Good,5.29,Green,20.61,3.69,11.5
+804,Red Dacca,Brazil,2.8,Processing,4.92,Overripe,18.19,1.26,15.08
+805,Manzano,Ecuador,2.31,Good,1.38,Turning,15.84,4.73,29.52
+806,Manzano,Ecuador,1.85,Good,2.99,Ripe,21.15,1.6,29.77
+807,Fehi,Guatemala,2.89,Premium,1.82,Ripe,17.2,3.2,26.89
+808,Fehi,Costa Rica,1.66,Good,3.37,Turning,24.51,3.49,26.73
+809,Plantain,Ecuador,3.04,Processing,6.13,Overripe,22.59,2.05,16.0
+810,Red Dacca,India,3.1,Good,6.93,Overripe,24.8,2.25,20.69
+811,Manzano,Costa Rica,2.44,Good,3.67,Turning,16.8,1.68,19.72
+812,Manzano,Colombia,1.98,Good,3.69,Ripe,20.23,2.83,14.52
+813,Manzano,Brazil,1.83,Good,5.6,Overripe,15.98,3.93,18.22
+814,Red Dacca,Guatemala,3.06,Premium,5.37,Ripe,20.77,4.14,24.51
+815,Fehi,Guatemala,3.81,Premium,6.19,Turning,16.67,4.99,11.39
+816,Red Dacca,Colombia,3.15,Unripe,3.6,Ripe,24.69,4.11,15.19
+817,Red Dacca,Honduras,3.51,Processing,6.73,Overripe,19.18,3.78,22.49
+818,Manzano,Guatemala,1.56,Unripe,4.06,Green,15.89,4.01,28.88
+819,Plantain,Costa Rica,2.83,Processing,2.23,Ripe,22.51,3.68,23.08
+820,Fehi,Guatemala,2.11,Premium,2.81,Turning,16.8,4.4,25.79
+821,Fehi,Guatemala,3.58,Premium,3.25,Turning,17.88,0.74,18.44
+822,Red Dacca,Ecuador,3.1,Processing,3.91,Ripe,20.24,2.39,13.5
+823,Red Dacca,Costa Rica,2.78,Processing,5.85,Overripe,21.72,3.0,29.6
+824,Plantain,Ecuador,1.78,Good,4.66,Green,19.7,1.87,11.54
+825,Fehi,Costa Rica,1.14,Good,5.12,Green,23.92,3.43,28.45
+826,Burro,Guatemala,3.06,Processing,5.73,Ripe,15.24,2.63,20.11
+827,Manzano,India,2.11,Processing,1.13,Green,16.28,1.48,17.86
+828,Burro,Brazil,3.78,Good,6.58,Ripe,20.41,2.21,16.35
+829,Red Dacca,Costa Rica,3.12,Premium,4.21,Turning,17.1,1.25,24.84
+830,Fehi,Costa Rica,1.57,Good,1.32,Ripe,24.18,2.92,25.52
+831,Fehi,India,3.52,Good,4.93,Turning,23.74,2.54,25.82
+832,Manzano,Colombia,2.09,Good,3.23,Turning,16.81,4.14,24.96
+833,Manzano,Costa Rica,3.45,Good,5.63,Ripe,16.31,2.79,20.13
+834,Burro,Costa Rica,3.4,Good,6.45,Overripe,19.96,4.06,13.6
+835,Manzano,Brazil,2.18,Good,3.35,Turning,24.89,3.01,10.94
+836,Red Dacca,Brazil,3.81,Premium,3.26,Turning,17.75,2.88,20.65
+837,Fehi,Brazil,1.71,Good,5.75,Green,22.06,0.9,22.25
+838,Plantain,Costa Rica,1.08,Good,6.39,Turning,15.38,0.71,12.86
+839,Fehi,Guatemala,1.68,Processing,1.75,Overripe,16.66,3.5,28.64
+840,Red Dacca,Guatemala,2.36,Good,4.18,Green,15.3,1.0,21.73
+841,Red Dacca,Honduras,1.96,Processing,5.55,Ripe,17.45,3.63,19.23
+842,Burro,Guatemala,2.95,Premium,6.53,Green,19.72,3.89,16.54
+843,Red Dacca,Brazil,2.17,Premium,3.57,Ripe,20.29,0.69,27.55
+844,Burro,Brazil,1.44,Processing,5.01,Turning,23.76,1.79,23.02
+845,Burro,Costa Rica,3.62,Processing,5.93,Green,18.42,3.86,10.42
+846,Red Dacca,Costa Rica,1.86,Processing,5.31,Green,21.92,4.2,26.7
+847,Red Dacca,Brazil,3.0,Processing,1.11,Green,19.61,1.27,16.52
+848,Burro,Guatemala,3.41,Good,6.13,Ripe,15.08,3.42,29.85
+849,Red Dacca,Costa Rica,3.79,Good,4.56,Ripe,18.96,4.89,13.37
+850,Red Dacca,Guatemala,3.18,Good,6.75,Turning,23.72,1.45,27.63
+851,Fehi,India,3.79,Processing,6.64,Ripe,17.45,2.4,27.17
+852,Red Dacca,Costa Rica,3.7,Good,5.13,Overripe,24.97,0.98,21.81
+853,Burro,India,2.89,Good,5.51,Turning,16.14,4.72,24.96
+854,Red Dacca,Brazil,3.31,Good,5.01,Overripe,22.38,2.64,13.27
+855,Manzano,India,2.15,Processing,1.13,Overripe,16.34,1.27,28.39
+856,Red Dacca,India,1.27,Processing,5.34,Overripe,22.28,0.71,25.22
+857,Plantain,Ecuador,2.2,Premium,4.69,Turning,23.28,0.63,21.6
+858,Red Dacca,Honduras,1.57,Good,5.32,Turning,19.35,2.49,27.86
+859,Fehi,Colombia,3.42,Processing,3.9,Ripe,23.96,2.45,23.17
+860,Fehi,Colombia,3.49,Premium,4.01,Turning,15.89,4.84,15.51
+861,Manzano,Honduras,1.22,Good,2.83,Green,20.96,1.53,24.02
+862,Burro,Ecuador,1.1,Good,2.45,Overripe,17.07,0.66,29.62
+863,Fehi,India,3.25,Good,3.55,Ripe,19.67,2.39,18.0
+864,Red Dacca,Guatemala,2.12,Premium,2.69,Turning,19.39,2.22,13.06
+865,Red Dacca,Ecuador,3.56,Premium,4.24,Overripe,15.9,1.01,25.57
+866,Burro,Ecuador,2.3,Good,2.0,Turning,19.87,1.44,21.36
+867,Fehi,Ecuador,3.25,Premium,1.84,Overripe,17.1,0.89,14.96
+868,Manzano,Brazil,3.43,Premium,5.01,Turning,15.81,1.64,28.45
+869,Red Dacca,Guatemala,1.53,Good,5.16,Overripe,16.57,1.67,18.84
+870,Burro,Brazil,3.32,Good,3.52,Ripe,22.59,2.91,18.14
+871,Manzano,Colombia,2.95,Processing,6.82,Overripe,16.44,3.26,19.02
+872,Plantain,Guatemala,2.87,Good,6.71,Ripe,20.46,3.96,19.02
+873,Fehi,Brazil,3.7,Processing,4.52,Ripe,23.36,0.55,19.58
+874,Plantain,Guatemala,2.55,Processing,6.37,Ripe,17.85,3.73,29.91
+875,Red Dacca,India,1.19,Premium,6.65,Ripe,17.83,3.61,20.5
+876,Manzano,India,1.99,Good,2.78,Overripe,15.61,4.73,13.32
+877,Plantain,Costa Rica,2.41,Processing,5.11,Turning,17.25,2.11,16.2
+878,Plantain,Honduras,2.57,Processing,5.52,Overripe,17.37,4.8,27.79
+879,Burro,Brazil,1.12,Good,1.49,Overripe,23.21,3.12,22.08
+880,Plantain,Colombia,1.27,Good,3.72,Green,19.38,1.69,12.27
+881,Fehi,Ecuador,2.82,Premium,5.54,Ripe,24.43,1.83,12.75
+882,Fehi,Honduras,2.54,Good,6.82,Overripe,17.53,2.87,21.54
+883,Plantain,Brazil,3.47,Processing,1.22,Overripe,23.68,0.9,25.27
+884,Manzano,Brazil,2.18,Good,3.58,Overripe,23.17,3.92,25.15
+885,Red Dacca,Brazil,3.22,Good,4.91,Turning,15.71,2.91,23.89
+886,Manzano,Honduras,1.72,Good,2.4,Ripe,22.16,0.58,10.36
+887,Burro,Brazil,3.68,Processing,3.52,Turning,24.65,0.82,29.3
+888,Plantain,Honduras,1.99,Good,6.96,Turning,15.68,0.77,26.12
+889,Manzano,Ecuador,2.2,Processing,1.19,Ripe,22.18,3.79,20.47
+890,Burro,Guatemala,2.34,Good,1.89,Ripe,23.48,1.36,14.31
+891,Manzano,India,3.79,Processing,1.48,Ripe,22.6,3.9,25.61
+892,Red Dacca,Ecuador,3.27,Good,6.76,Turning,23.1,4.94,18.61
+893,Fehi,Brazil,1.39,Premium,1.79,Ripe,17.34,0.58,19.35
+894,Fehi,Honduras,1.13,Processing,2.14,Overripe,17.98,4.18,21.33
+895,Manzano,Brazil,2.14,Good,3.31,Ripe,18.92,4.84,10.33
+896,Burro,Honduras,2.89,Premium,6.98,Green,17.35,1.02,29.78
+897,Plantain,India,3.52,Premium,6.29,Turning,17.74,4.82,12.42
+898,Burro,Colombia,2.78,Premium,1.11,Turning,24.2,0.72,17.0
+899,Red Dacca,India,3.36,Good,6.56,Ripe,22.64,2.02,13.07
+900,Fehi,Ecuador,2.54,Processing,6.65,Turning,19.59,4.74,22.22
+901,Fehi,Colombia,3.86,Good,6.24,Turning,20.3,4.88,12.87
+902,Plantain,India,1.59,Good,4.09,Overripe,18.38,3.68,19.85
+903,Red Dacca,India,2.95,Premium,1.53,Ripe,19.59,3.61,11.67
+904,Plantain,India,2.66,Good,5.31,Overripe,15.4,3.1,17.78
+905,Plantain,Guatemala,2.94,Processing,4.18,Overripe,21.79,4.38,25.12
+906,Red Dacca,India,2.31,Good,1.32,Ripe,15.37,4.4,27.88
+907,Manzano,Costa Rica,3.92,Processing,3.06,Ripe,17.36,4.5,21.03
+908,Burro,Honduras,1.85,Premium,1.77,Turning,23.88,2.59,12.72
+909,Burro,Honduras,3.96,Good,5.59,Turning,24.29,1.3,13.96
+910,Fehi,Brazil,3.79,Good,4.35,Turning,21.74,0.84,24.12
+911,Fehi,Colombia,2.86,Premium,4.87,Turning,23.55,1.35,20.98
+912,Manzano,India,2.64,Processing,1.64,Turning,23.73,0.87,20.4
+913,Red Dacca,Honduras,1.48,Good,1.93,Ripe,20.93,1.17,28.52
+914,Red Dacca,Costa Rica,2.41,Processing,2.1,Green,18.59,0.51,23.78
+915,Red Dacca,India,1.84,Processing,3.59,Turning,16.83,4.55,20.64
+916,Manzano,Ecuador,1.7,Processing,2.74,Overripe,15.39,3.37,28.47
+917,Manzano,Colombia,2.53,Processing,4.82,Green,24.51,3.76,12.01
+918,Plantain,Costa Rica,3.42,Premium,3.65,Turning,18.47,2.24,26.76
+919,Fehi,Costa Rica,2.16,Good,6.85,Turning,22.0,4.2,20.37
+920,Manzano,Guatemala,3.96,Good,6.1,Ripe,17.69,0.77,24.82
+921,Red Dacca,Guatemala,2.05,Premium,3.59,Turning,21.13,1.15,29.89
+922,Red Dacca,India,2.49,Good,6.82,Overripe,19.24,4.3,28.88
+923,Red Dacca,Brazil,2.81,Processing,1.72,Turning,20.91,2.68,26.33
+924,Red Dacca,Costa Rica,3.57,Premium,3.19,Ripe,16.93,3.13,28.05
+925,Burro,India,2.94,Processing,1.82,Green,15.57,3.36,27.52
+926,Burro,Costa Rica,1.26,Good,6.69,Ripe,18.83,3.85,16.47
+927,Fehi,India,2.63,Processing,6.93,Green,21.33,0.58,21.86
+928,Manzano,Brazil,2.57,Processing,3.53,Overripe,15.91,1.87,25.13
+929,Burro,Costa Rica,2.72,Good,5.44,Overripe,18.69,4.1,28.42
+930,Burro,Colombia,3.15,Good,4.49,Ripe,15.53,3.39,24.03
+931,Fehi,India,1.98,Good,6.01,Green,19.16,2.38,19.76
+932,Manzano,Honduras,3.21,Premium,4.61,Green,18.5,3.26,20.84
+933,Red Dacca,Colombia,1.98,Good,6.19,Turning,23.85,1.7,27.0
+934,Manzano,Guatemala,2.09,Good,6.97,Ripe,23.67,0.63,11.48
+935,Plantain,Colombia,2.45,Processing,3.2,Turning,16.36,3.85,18.18
+936,Manzano,India,1.56,Good,6.69,Ripe,23.62,3.91,10.15
+937,Burro,Costa Rica,1.9,Processing,1.43,Ripe,23.65,0.96,27.5
+938,Burro,Costa Rica,3.29,Unripe,6.44,Overripe,21.83,2.77,14.52
+939,Plantain,Ecuador,2.31,Unripe,4.9,Overripe,20.47,3.64,24.01
+940,Red Dacca,Ecuador,3.54,Processing,1.21,Overripe,22.18,3.44,21.07
+941,Fehi,Brazil,2.64,Good,6.91,Turning,23.35,4.71,18.4
+942,Fehi,Colombia,1.86,Processing,1.58,Turning,23.86,3.48,13.77
+943,Manzano,Brazil,1.23,Premium,4.86,Ripe,24.81,4.27,27.61
+944,Burro,Brazil,1.91,Good,4.69,Ripe,24.52,1.97,28.02
+945,Burro,Costa Rica,3.54,Unripe,6.07,Turning,20.04,3.61,21.46
+946,Fehi,Ecuador,3.41,Good,3.52,Green,21.99,0.6,16.94
+947,Red Dacca,Brazil,3.71,Processing,2.76,Turning,18.9,4.72,20.72
+948,Burro,Guatemala,2.22,Processing,1.43,Ripe,16.23,2.04,17.25
+949,Red Dacca,Ecuador,2.18,Good,1.08,Green,15.83,0.51,28.17
+950,Burro,Guatemala,1.76,Good,3.17,Overripe,21.93,4.04,27.29
+951,Fehi,Costa Rica,3.12,Processing,1.79,Turning,21.59,4.72,17.99
+952,Fehi,Honduras,3.2,Good,6.99,Ripe,20.77,4.27,21.71
+953,Manzano,Colombia,1.7,Premium,1.02,Overripe,17.05,3.25,14.04
+954,Manzano,Honduras,3.26,Processing,1.36,Ripe,24.5,2.22,12.16
+955,Fehi,Costa Rica,1.53,Good,5.81,Ripe,18.46,0.59,19.35
+956,Manzano,Costa Rica,1.24,Premium,4.38,Ripe,21.67,3.08,17.55
+957,Burro,Brazil,2.57,Processing,1.53,Overripe,15.8,1.6,13.08
+958,Red Dacca,Guatemala,1.65,Good,5.1,Overripe,22.99,1.34,18.24
+959,Manzano,Ecuador,1.46,Good,2.77,Overripe,16.07,3.43,11.08
+960,Fehi,Costa Rica,3.95,Processing,1.57,Turning,17.84,3.85,17.78
+961,Manzano,Honduras,2.16,Processing,5.1,Turning,16.25,2.18,24.86
+962,Red Dacca,Ecuador,3.5,Good,3.2,Ripe,24.56,1.15,22.67
+963,Plantain,Guatemala,2.42,Processing,1.68,Overripe,21.55,4.83,18.57
+964,Red Dacca,Costa Rica,2.51,Good,4.96,Overripe,22.45,3.34,26.76
+965,Plantain,Colombia,2.1,Good,4.53,Ripe,18.18,3.23,20.02
+966,Fehi,Guatemala,2.0,Unripe,3.18,Overripe,22.11,1.09,19.91
+967,Burro,Brazil,2.19,Good,5.1,Green,16.25,4.86,22.85
+968,Fehi,Colombia,1.93,Processing,4.19,Ripe,23.92,4.72,24.9
+969,Burro,Guatemala,2.61,Premium,3.7,Turning,18.97,2.22,20.96
+970,Burro,Ecuador,2.6,Processing,1.12,Overripe,16.31,2.95,23.64
+971,Fehi,Brazil,2.86,Processing,1.81,Overripe,22.45,0.74,29.35
+972,Red Dacca,Colombia,3.13,Processing,1.53,Ripe,23.73,4.79,14.97
+973,Red Dacca,India,2.75,Premium,2.56,Turning,20.79,4.77,28.78
+974,Burro,Guatemala,1.37,Premium,1.12,Overripe,23.08,2.6,25.92
+975,Fehi,Colombia,3.45,Premium,2.48,Turning,22.39,1.36,29.26
+976,Red Dacca,Guatemala,3.86,Good,1.44,Green,21.18,4.2,20.56
+977,Burro,Brazil,1.27,Unripe,4.4,Ripe,15.39,1.59,18.36
+978,Red Dacca,Costa Rica,3.86,Premium,4.8,Ripe,22.08,4.76,13.59
+979,Fehi,India,3.11,Processing,4.37,Green,16.39,3.45,26.37
+980,Fehi,Ecuador,1.94,Processing,6.74,Overripe,16.42,0.76,13.77
+981,Manzano,Guatemala,3.27,Premium,1.7,Turning,22.29,3.96,24.91
+982,Fehi,Guatemala,1.17,Good,4.51,Turning,22.72,0.57,22.38
+983,Fehi,Ecuador,1.14,Good,4.64,Ripe,18.01,2.65,14.23
+984,Burro,Costa Rica,1.89,Processing,2.25,Green,19.46,2.46,11.36
+985,Plantain,Costa Rica,2.86,Premium,2.42,Overripe,20.0,3.43,26.23
+986,Fehi,Guatemala,3.92,Good,3.83,Overripe,23.21,1.28,14.74
+987,Manzano,Costa Rica,1.52,Good,5.87,Ripe,19.04,1.33,26.46
+988,Manzano,Ecuador,1.95,Good,1.37,Overripe,18.33,1.94,21.46
+989,Fehi,Colombia,1.07,Premium,4.57,Turning,16.12,1.54,21.72
+990,Manzano,Ecuador,3.22,Premium,5.18,Green,23.88,0.71,29.89
+991,Fehi,Brazil,2.11,Processing,4.22,Ripe,23.14,0.84,16.65
+992,Burro,India,1.58,Good,4.27,Overripe,23.16,0.61,20.08
+993,Plantain,Brazil,1.34,Good,6.29,Turning,15.19,3.68,22.67
+994,Red Dacca,Brazil,2.16,Good,3.11,Ripe,24.6,3.83,20.41
+995,Plantain,Ecuador,2.59,Processing,2.09,Overripe,16.75,0.67,13.82
+996,Fehi,Brazil,2.15,Premium,4.61,Turning,17.5,4.74,20.73
+997,Manzano,Colombia,3.67,Good,1.69,Turning,22.31,4.19,29.0
+998,Red Dacca,Honduras,1.34,Good,5.48,Overripe,24.17,2.48,23.11
+999,Manzano,India,1.43,Processing,6.84,Green,17.32,2.87,15.98
+1000,Manzano,Brazil,2.97,Processing,4.13,Overripe,24.61,4.73,29.7
