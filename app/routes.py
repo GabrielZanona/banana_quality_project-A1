@@ -1,6 +1,6 @@
 import os
 import matplotlib
-matplotlib.use('Agg')  # Defina o backend do Matplotlib para 'Agg'
+matplotlib.use('Agg') 
 import matplotlib.pyplot as plt
 from flask import render_template, request, jsonify
 import pandas as pd
@@ -43,12 +43,12 @@ def init_routes(app):
 
     @app.route("/predict", methods=["POST"])
     def predict():
-        data = request.get_json()  # Recebe os dados da predição
+        data = request.get_json() 
         model_data = load_model("model.joblib")
         model = model_data["model"]
         features = model_data["features"]
         
-        # Aqui transformamos os dados de entrada no formato adequado
+
         input_data = [data[feature] for feature in features]
         prediction = model.predict([input_data])
         
@@ -56,12 +56,12 @@ def init_routes(app):
 
     @app.route("/predict_category", methods=["POST"])
     def predict_category():
-        data = request.get_json()  # Recebe os dados da predição
+        data = request.get_json()  
         model_data = load_model("classification_model.joblib")
         model = model_data["model"]
         features = model_data["features"]
         
-        # Aqui transformamos os dados de entrada no formato adequado
+
         input_data = [data[feature] for feature in features]
         prediction = model.predict([input_data])
         
