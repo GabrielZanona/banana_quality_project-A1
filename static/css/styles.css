@@ -170,3 +170,59 @@ table tr:hover {
         font-size: 0.9rem;
     }
 }
+
+.info-icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #F0B556;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.info-icon:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    transform: translateX(-50%);
+    width: 250px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 1.4;
+    z-index: 100;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease;
+}
+
+.info-icon:hover::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.75) transparent transparent transparent;
+    z-index: 101;
+}
+
+.info-icon::after,
+.info-icon::before {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+

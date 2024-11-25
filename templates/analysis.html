@@ -2,38 +2,68 @@
 {% block content %}
 <h2>Análise e Predições dos Dados de Bananas</h2>
 
+<!-- Resumo dos Dados -->
 <h3>Resumo dos Dados</h3>
-{% for table in tables %}
-    <div>{{ table|safe }}</div>
-{% endfor %}
-
-<h3>Gráficos de Análise</h3>
-<div class="charts">
-    <h4>Gráfico de Barras - Distribuição por Variedade</h4>
-    <img id="barChart" src="{{ url_for('static', filename='images/' + charts.bar_chart) }}?{{ random_number }}" alt="Distribuição por Variedade">
-
-    <h4>Gráfico de Pizza - Proporção de Categorias de Maturação</h4>
-    <img id="pieChart" src="{{ url_for('static', filename='images/' + charts.pie_chart) }}?{{ random_number }}" alt="Proporção de Categorias de Maturação">
-
-    <h4>Gráfico de Dispersão - Pontuação de Qualidade vs. Teor de Açúcar</h4>
-    <img id="scatterPlot" src="{{ url_for('static', filename='images/' + charts.scatter_plot) }}?{{ random_number }}" alt="Pontuação de Qualidade vs. Teor de Açúcar">
-
-    <h4>Boxplot - Distribuição da Firmeza por Categoria de Qualidade</h4>
-    <img id="boxplot" src="{{ url_for('static', filename='images/' + charts.boxplot) }}?{{ random_number }}" alt="Distribuição da Firmeza por Categoria de Qualidade">
-
-    <h4>Heatmap - Média do Índice de Maturação por Categoria de Qualidade</h4>
-    <img id="heatmap" src="{{ url_for('static', filename='images/' + charts.heatmap) }}?{{ random_number }}" alt="Média do Índice de Maturação por Categoria de Qualidade">
+<div id="data-summary">
+    {% for table in tables %}
+        <div>{{ table | safe }}</div>
+    {% endfor %}
 </div>
 
-<h3>Realizar Predições</h3>
+<!-- Gráficos de Análise -->
+<h3>Gráficos de Análise</h3>
+<div class="charts">
+    <h4>
+        Gráfico de Barras - Distribuição por Variedade
+        <span class="info-icon" data-tooltip="Este gráfico mostra a quantidade de bananas por variedade. Ajuda a identificar quais variedades são predominantes no dataset.">i</span>
+    </h4>
+    <img id="barChart" src="{{ url_for('static', filename='images/' + charts.bar_chart) }}" alt="Distribuição por Variedade">
 
+    <h4>
+        Gráfico de Pizza - Proporção de Categorias de Maturação
+        <span class="info-icon" data-tooltip="Apresenta a distribuição percentual das categorias de maturação das bananas, como 'Maduras' ou 'Verdes'.">i</span>
+    </h4>
+    <img id="pieChart" src="{{ url_for('static', filename='images/' + charts.pie_chart) }}" alt="Proporção de Categorias de Maturação">
+
+    <h4>
+        Gráfico de Dispersão - Pontuação de Qualidade vs. Teor de Açúcar
+        <span class="info-icon" data-tooltip="Mostra a relação entre a pontuação de qualidade das bananas e o teor de açúcar, identificando correlações.">i</span>
+    </h4>
+    <img id="scatterPlot" src="{{ url_for('static', filename='images/' + charts.scatter_plot) }}" alt="Pontuação de Qualidade vs. Teor de Açúcar">
+
+    <h4>
+        Boxplot - Distribuição da Firmeza por Categoria de Qualidade
+        <span class="info-icon" data-tooltip="Exibe como a firmeza das bananas varia entre diferentes categorias de qualidade.">i</span>
+    </h4>
+    <img id="boxplot" src="{{ url_for('static', filename='images/' + charts.boxplot) }}" alt="Distribuição da Firmeza por Categoria de Qualidade">
+
+    <h4>
+        Heatmap - Média do Índice de Maturação por Categoria de Qualidade
+        <span class="info-icon" data-tooltip="Visualiza a média do índice de maturação das bananas para cada categoria de qualidade.">i</span>
+    </h4>
+    <img id="heatmap" src="{{ url_for('static', filename='images/' + charts.heatmap) }}" alt="Média do Índice de Maturação por Categoria de Qualidade">
+</div>
+
+<!-- Predições -->
+<h3>Realizar Predições</h3>
 <h4>Predições para Pontuação de Qualidade</h4>
 <div id="prediction-form-container" data-features="{{ features | join(',') }}">
     <form id="prediction-form">
         {% for feature in features %}
-            <label for="{{ feature }}">{{ feature.replace('_', ' ').capitalize() }}</label>
+            <label for="{{ feature }}">
+                {% if feature == 'sugar_content_brix' %}
+                    Teor de Açúcar (°Brix)
+                {% elif feature == 'firmness_kgf' %}
+                    Firmeza (kgf)
+                {% elif feature == 'length_cm' %}
+                    Comprimento (cm)
+                {% else %}
+                    {{ feature.replace('_', ' ').capitalize() }}
+                {% endif %}
+            </label>
             <input type="number" step="any" id="{{ feature }}" name="{{ feature }}">
         {% endfor %}
+        <span class="info-icon" data-tooltip="Preencha os valores acima para prever a pontuação de qualidade de uma banana. Exemplo: teor de açúcar entre 10 e 30.">i</span>
         <button type="button" onclick="makePrediction()">Predict</button>
     </form>
 </div>
@@ -43,18 +73,31 @@
 <div id="category-prediction-form-container" data-category-features="{{ category_features | join(',') }}">
     <form id="category-prediction-form">
         {% for feature in category_features %}
-            <label for="{{ feature }}">{{ feature.replace('_', ' ').capitalize() }}</label>
+            <label for="{{ feature }}">
+                {% if feature == 'sugar_content_brix' %}
+                    Teor de Açúcar (°Brix)
+                {% elif feature == 'firmness_kgf' %}
+                    Firmeza (kgf)
+                {% elif feature == 'ripeness_index' %}
+                    Índice de Maturação
+                {% else %}
+                    {{ feature.replace('_', ' ').capitalize() }}
+                {% endif %}
+            </label>
             <input type="number" step="any" id="{{ feature }}" name="{{ feature }}">
         {% endfor %}
+        <span class="info-icon" data-tooltip="Preencha os valores acima para prever a categoria de qualidade de uma banana. Exemplo: índice de maturação entre 1 e 10.">i</span>
         <button type="button" onclick="makeCategoryPrediction()">Predict</button>
     </form>
 </div>
 <div id="category-prediction-result"></div>
 
+<!-- Reupload de Arquivo e Re-treinamento dos Modelos -->
 <h3>Reupload de Arquivo e Re-treinamento dos Modelos</h3>
 <form id="retrain-form" enctype="multipart/form-data">
     <label for="retrain-file">Upload de Novo Arquivo CSV para Re-treinamento:</label>
     <input type="file" id="retrain-file" name="file" accept=".csv">
+    <span class="info-icon" data-tooltip="Envie um novo arquivo CSV para atualizar os modelos e os gráficos baseados nos dados mais recentes.">i</span>
     <button type="button" onclick="retrainModels()">Re-treinar</button>
 </form>
 <div id="retrain-result"></div>
@@ -76,7 +119,12 @@
             },
             body: JSON.stringify(formData)
         })
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(data => {
             document.getElementById('prediction-result').innerText = 'Prediction: ' + data.prediction;
         })
@@ -130,12 +178,12 @@
             document.getElementById('retrain-result').innerText = data.message;
 
             if (data.status === 'success') {
-                // Atualiza os gráficos com as novas imagens
                 document.getElementById('barChart').src = `/static/images/${data.charts.bar_chart}?${new Date().getTime()}`;
                 document.getElementById('pieChart').src = `/static/images/${data.charts.pie_chart}?${new Date().getTime()}`;
                 document.getElementById('scatterPlot').src = `/static/images/${data.charts.scatter_plot}?${new Date().getTime()}`;
                 document.getElementById('boxplot').src = `/static/images/${data.charts.boxplot}?${new Date().getTime()}`;
                 document.getElementById('heatmap').src = `/static/images/${data.charts.heatmap}?${new Date().getTime()}`;
+                document.getElementById('data-summary').innerHTML = data.table_html;
             }
         })
         .catch(error => {
